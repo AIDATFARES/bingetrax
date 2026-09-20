@@ -318,7 +318,8 @@ export default function ChannelsPage() {
                     <div className="flex items-center gap-2">
                       <img
                         src={`https://flagcdn.com/w40/${channel.flag}.webp`}
-                        alt={channel.country}
+                        alt={`BINGETRAX ${channel.name} live stream in ${channel.country}`}
+                        title={`Watch ${channel.name} (${channel.quality}) on BINGETRAX IPTV`}
                         className="w-4 h-3 rounded-[2px] object-cover"
                       />
                       <p className="text-xs font-bold text-black truncate group-hover:text-[#7000FF]">

@@ -345,3 +345,4 @@ By combining an enterprise-grade streaming infrastructure like BINGETRAX with an
 Ready for kickoff? Choose your subscription tier on the [BINGETRAX Pricing page](/pricing) or check our [Device Installation Guides](/installation) to start streaming every live game in crystal-clear high definition today.
   `
 };
+

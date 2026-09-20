@@ -45,7 +45,7 @@ export const metadata: Metadata = {
         url: "/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "BINGETRAX IPTV Premium Service",
+        alt: "BINGETRAX #1 Premium 4K IPTV Service Interface",
       },
     ],
     locale: "en_US",
@@ -55,7 +55,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "BINGETRAX – #1 Premium 4K IPTV Service | Free Trial & Fast Setup",
     description: "Stream 50,000+ live channels, 4K sports & 120,000+ movies with zero buffering. Save up to 80% on cable. Get instant activation & test BINGETRAX risk-free today!",
-    images: ["/og-image.webp"],
+    images: [
+      {
+        url: "/og-image.webp",
+        alt: "BINGETRAX #1 Premium 4K IPTV Service",
+      }
+    ],
   },
 };
 
@@ -64,9 +69,45 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.bingetrax.top/#organization",
+        "name": "BINGETRAX IPTV",
+        "url": "https://www.bingetrax.top",
+        "logo": {
+          "@type": "ImageObject",
+          "@id": "https://www.bingetrax.top/#logo",
+          "url": "https://www.bingetrax.top/icon.png",
+          "caption": "BINGETRAX IPTV Official Logo",
+          "creditText": "BINGETRAX",
+          "copyrightHolder": {
+            "@type": "Organization",
+            "name": "BINGETRAX IPTV"
+          }
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.bingetrax.top/#website",
+        "url": "https://www.bingetrax.top",
+        "name": "BINGETRAX IPTV",
+        "publisher": {
+          "@id": "https://www.bingetrax.top/#organization"
+        }
+      }
+    ]
+  };
+
   return (
     <html lang="en" className={`light ${inter.variable} ${geist.variable}`}>
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
       </head>
       <body className="bg-background text-on-background font-body-lg min-h-screen flex flex-col antialiased selection:bg-primary-container selection:text-on-primary-container">
         {/* Navbar Component */}

@@ -345,3 +345,4 @@ Pairing these network optimizations with an enterprise-grade streaming infrastru
 Need assistance configuring your setup? Explore our step-by-step [Device Installation Guides](/installation) or reach out directly to our 24/7 technical team on the [BINGETRAX Contact page](/contact).
   `
 };
+

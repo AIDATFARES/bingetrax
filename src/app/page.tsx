@@ -73,17 +73,17 @@ export default function Home() {
         <BrandMarquee 
           imagesFolder="devices" 
           images={[
-            "Amazon-Fire-tv-stick-krooz-tv.webp",
-            "Apple-TV-krooz-tv.webp",
-            "hisense-krooz-tv.webp",
-            "iptv-smarter-krooz-tv.webp",
-            "LG-smart-krooz-tv.webp",
-            "Shield-krooz-tv.webp",
-            "Smart-android-tv-krooz-tv.webp",
-            "sony-select-krooz-tv.webp",
-            "Tv-media-boxs-krooz-tv.webp",
-            "Windows-krooz-tv.webp",
-            "xbox-live-krooz-tv.webp"
+            "Amazon-Fire-tv-stick.webp",
+            "Apple-TV.webp",
+            "hisense.webp",
+            "iptv-smarter.webp",
+            "LG-smart.webp",
+            "Shield.webp",
+            "Smart-android-tv.webp",
+            "sony-select.webp",
+            "Tv-media-boxs.webp",
+            "Windows.webp",
+            "xbox-live.webp"
           ]}
           cardClassName="flex-shrink-0 w-[160px] h-[80px] md:w-[220px] md:h-[100px] relative bg-white border border-slate-200 rounded-2xl p-4 md:p-6 hover:border-primary-300 transition-all duration-300 shadow-md flex items-center justify-center"
           imageClassName="object-contain drop-shadow-sm"

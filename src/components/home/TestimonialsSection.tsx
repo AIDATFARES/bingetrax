@@ -73,7 +73,8 @@ export default function TestimonialsSection() {
               >
                 <Image
                   src={`/reviews/${img}`}
-                  alt="BINGETRAX Customer Review"
+                  alt={`BINGETRAX Verified Customer Feedback & Rating - Review #${(index % reviewImages.length) + 1}`}
+                  title={`Verified BINGETRAX Subscriber Testimonial #${(index % reviewImages.length) + 1}`}
                   fill
                   sizes="(max-width: 640px) 220px, 280px"
                   className="object-contain group-hover:scale-105 transition-transform duration-300"

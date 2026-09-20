@@ -21,7 +21,8 @@ export default function DeviceSupport() {
               <div className="relative rounded-2xl overflow-hidden shadow-inner">
                 <Image
                   src="/devices-banner-neon.webp"
-                  alt="BINGETRAX Supported IPTV Devices"
+                  alt="BINGETRAX Supported IPTV Devices – Smart TV, Firestick 4K Max, Apple TV 4K, Android, and PC"
+                  title="Stream BINGETRAX IPTV on all your favorite household devices"
                   width={800}
                   height={500}
                   className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"

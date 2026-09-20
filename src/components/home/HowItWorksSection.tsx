@@ -74,7 +74,8 @@ export default function HowItWorksSection() {
               >
                 <Image
                   src="/step-1-neon.webp"
-                  alt="Place your order online"
+                  alt="Step 1: Choose and order your BINGETRAX IPTV subscription plan online"
+                  title="Select your BINGETRAX 4K IPTV subscription package"
                   width={600}
                   height={380}
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
@@ -98,7 +99,8 @@ export default function HowItWorksSection() {
               >
                 <Image
                   src="/step-2-neon.webp"
-                  alt="Instant installation"
+                  alt="Step 2: Quick installation of BINGETRAX IPTV on your Smart TV, Firestick or Apple TV"
+                  title="Install BINGETRAX on your favorite streaming device"
                   width={600}
                   height={380}
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
@@ -168,7 +170,8 @@ export default function HowItWorksSection() {
               >
                 <Image
                   src="/step-3-neon.webp"
-                  alt="Watch and enjoy live TV"
+                  alt="Step 3: Watch and enjoy 50,000+ live channels and 4K VOD with BINGETRAX"
+                  title="Stream 4K live television and sports with BINGETRAX"
                   width={600}
                   height={380}
                   className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"

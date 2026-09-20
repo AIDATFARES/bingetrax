@@ -40,13 +40,31 @@ export default function BrandMarquee({
             className={cardClassName || "flex-shrink-0 w-[100px] h-[50px] md:w-[140px] md:h-[65px] relative bg-white border border-stone-200 rounded-xl p-3 hover:bg-stone-50 hover:scale-105 transition-all duration-300 shadow-md"}
           >
             <div className="relative w-full h-full overflow-hidden rounded-xl">
-              <Image 
-                src={`/${imagesFolder}/${brand}`} 
-                alt="Channel Logo" 
-                fill
-                sizes="(max-width: 640px) 100px, (max-width: 1024px) 140px, 160px"
-                className={imageClassName || "object-contain drop-shadow-md rounded-lg"}
-              />
+              {(() => {
+                const cleanName = brand
+                  .replace(/\.[^/.]+$/, "")
+                  .replace(/[-_]/g, " ")
+                  .replace(/^\d+\s*/, "")
+                  .trim();
+                let altLabel = `BINGETRAX 4K IPTV - ${cleanName || "Channel Network"}`;
+                if (imagesFolder === "sports") {
+                  altLabel = `BINGETRAX Live Sports Broadcast - ${cleanName || "Championship League"}`;
+                } else if (imagesFolder === "devices") {
+                  altLabel = `BINGETRAX Compatible Streaming Device - ${cleanName || "Hardware Player"}`;
+                } else if (imagesFolder === "brands") {
+                  altLabel = `BINGETRAX Premium TV Network - ${cleanName || "Global Entertainment"}`;
+                }
+                return (
+                  <Image 
+                    src={`/${imagesFolder}/${brand}`} 
+                    alt={altLabel}
+                    title={altLabel}
+                    fill
+                    sizes="(max-width: 640px) 100px, (max-width: 1024px) 140px, 160px"
+                    className={imageClassName || "object-contain drop-shadow-md rounded-lg"}
+                  />
+                );
+              })()}
             </div>
           </div>
         ))}

@@ -53,7 +53,14 @@ export default function MovieStrips() {
         <div className="flex gap-4 md:gap-6 px-2 md:px-3 animate-marquee" style={{ animationDuration: '30s' }}>
           {[...movieImages, ...movieImages, ...movieImages].map((img, i) => (
             <div key={i} className="flex-shrink-0 w-[240px] h-[135px] md:w-[340px] md:h-[190px] relative rounded-xl overflow-hidden shadow-xl border border-slate-200 hover:scale-105 hover:border-[#7000FF]/50 hover:shadow-2xl hover:z-10 transition-all duration-300">
-              <Image src={`/fillem/${img}`} alt="Media Thumbnail" fill sizes="(max-width: 640px) 240px, 340px" className="object-cover" />
+              <Image 
+                src={`/fillem/${img}`} 
+                alt={`BINGETRAX 4K Ultra HD VOD Cinema & Series - Title #${(i % movieImages.length) + 1}`}
+                title={`Stream 4K Cinema & TV Series on BINGETRAX IPTV`}
+                fill 
+                sizes="(max-width: 640px) 240px, 340px" 
+                className="object-cover" 
+              />
             </div>
           ))}
         </div>

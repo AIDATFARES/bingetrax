@@ -92,7 +92,8 @@ export default function GlobalCoverageSection() {
             <div key={`top-${country.code}-${idx}`} className="flex items-center space-x-2 px-6">
               <img
                 src={`https://flagcdn.com/w40/${country.code}.webp`}
-                alt={country.name}
+                alt={`BINGETRAX Live Channels in ${country.name}`}
+                title={`Stream live channels in ${country.name} with BINGETRAX`}
                 loading="lazy"
                 decoding="async"
                 width={18}
@@ -193,7 +194,8 @@ export default function GlobalCoverageSection() {
               >
                 <img
                   src={`https://flagcdn.com/w40/${country.code}.webp`}
-                  alt={`${country.name} flag`}
+                  alt={`BINGETRAX IPTV Coverage - ${country.name}`}
+                  title={`BINGETRAX 4K IPTV in ${country.name}`}
                   loading="lazy"
                   decoding="async"
                   width={20}
@@ -232,7 +234,8 @@ export default function GlobalCoverageSection() {
             <div key={`bottom-${country.code}-${idx}`} className="flex items-center space-x-2 px-6">
               <img
                 src={`https://flagcdn.com/w40/${country.code}.webp`}
-                alt={country.name}
+                alt={`BINGETRAX International IPTV - ${country.name}`}
+                title={`Watch live TV from ${country.name} on BINGETRAX`}
                 loading="lazy"
                 decoding="async"
                 width={18}

@@ -321,3 +321,4 @@ Enterprise IPTV solves both problems. By delivering every domestic and global li
 Ready to cut the cord the right way? Explore our subscription plans on the [BINGETRAX Pricing page](/pricing), view our complete [Live Channel Catalog](/channels), or follow our simple [Device Setup Guides](/installation) to start streaming premium television today.
   `
 };
+
