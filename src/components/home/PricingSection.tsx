@@ -150,16 +150,16 @@ export default function PricingSection() {
                 <p className="mt-1 text-[11px] font-bold uppercase tracking-[0.2em] text-[#7000FF]">{plan.name}</p>
                 
                 <div className="mt-6 flex flex-col items-center justify-center">
-                  <span className="text-5xl font-black tracking-tighter text-primary-500">${priceFor(plan)}</span>
-                  <span className="mt-1 text-xs font-semibold text-slate-400">{plan.period}</span>
+                  <span className="text-5xl font-black tracking-tighter text-[#7000FF]">${priceFor(plan)}</span>
+                  <span className="mt-1 text-xs font-semibold text-slate-600">{plan.period}</span>
                 </div>
                 
                 <div className="min-h-[20px] mt-2 flex items-center justify-center gap-2">
                   {plan.saving && (
-                    <p className="text-xs font-bold text-accent-500">{plan.saving}</p>
+                    <p className="text-xs font-bold text-[#7000FF] bg-[#7000FF]/10 px-2 py-0.5 rounded-md">{plan.saving}</p>
                   )}
                   {plan.oldPrice && (
-                     <p className="text-xs font-semibold text-slate-400 line-through">${(plan.oldPrice * devices).toFixed(2)}</p>
+                     <p className="text-xs font-semibold text-slate-500 line-through">${(plan.oldPrice * devices).toFixed(2)}</p>
                   )}
                 </div>
               </div>
@@ -168,11 +168,11 @@ export default function PricingSection() {
                 {plan.features.map((feature, idx) => (
                   <li key={idx} className="flex items-start gap-3">
                     {feature.included ? (
-                      <CheckCircle2 className={`h-4 w-4 shrink-0 mt-0.5 ${plan.popular ? "text-primary-500" : "text-accent-500"}`} strokeWidth={2.5} />
+                      <CheckCircle2 className="h-4 w-4 shrink-0 mt-0.5 text-[#7000FF]" strokeWidth={2.5} />
                     ) : (
-                      <X className="h-4 w-4 shrink-0 mt-0.5 text-slate-300" strokeWidth={2.5} />
+                      <X className="h-4 w-4 shrink-0 mt-0.5 text-slate-400" strokeWidth={2.5} />
                     )}
-                    <span className={`text-[13px] font-medium leading-tight ${feature.included ? "text-slate-700" : "text-slate-300"}`}>
+                    <span className={`text-[13px] font-medium leading-tight ${feature.included ? "text-slate-700" : "text-slate-400"}`}>
                       {feature.text}
                     </span>
                   </li>
@@ -191,7 +191,7 @@ export default function PricingSection() {
                 >
                   {plan.buttonText} &rarr;
                 </button>
-                <p className="text-center text-[11px] font-medium text-slate-400 mt-3">
+                <p className="text-center text-[11px] font-medium text-slate-600 mt-3">
                   Instant Activation
                 </p>
               </div>
@@ -208,7 +208,7 @@ export default function PricingSection() {
                 <CheckCircle2 className="h-5 w-5 text-primary-500" />
                 Secure Payments & Instant Access
               </h4>
-              <p className="text-sm text-slate-500">Pay safely using Crypto, Credit Card, or PayPal. Your details are encrypted instantly.</p>
+              <p className="text-sm text-slate-600">Pay safely using Crypto, Credit Card, or PayPal. Your details are encrypted instantly.</p>
             </div>
 
             <div className="flex items-center gap-4 text-slate-400">

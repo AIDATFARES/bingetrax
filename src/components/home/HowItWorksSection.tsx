@@ -33,35 +33,34 @@ export default function HowItWorksSection() {
           <div className="relative mb-16 md:mb-20">
             {/* Step Badge */}
             <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-              <span className="bg-[#7000FF] text-black font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
+              <span className="bg-[#7000FF] text-white font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(112,0,255,0.4)]">
                 Step One
               </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pt-6">
               {/* Left Card */}
-              <div className="bg-white text-slate-100 p-8 rounded-2xl shadow-xl relative border border-stone-200"
-              >
+              <div className="bg-white text-slate-800 p-8 rounded-2xl shadow-xl relative border border-stone-200">
                 <h3 className="text-xl font-extrabold text-[#7000FF] mb-3">
                   <a
                     href="#pricing"
-                    className="hover:text-orange-700 transition-colors"
+                    className="hover:text-purple-900 transition-colors"
                   >
                     1. Choose Your BINGETRAX Plan
                   </a>
                 </h3>
-                <p className="text-slate-400 text-sm leading-relaxed">
+                <p className="text-slate-600 text-sm leading-relaxed">
                   Select the best BINGETRAX IPTV subscription package for your needs from our{" "}
                   <a
                     href="#pricing"
-                    className="text-[#7000FF] font-semibold hover:text-orange-700 transition-colors"
+                    className="text-[#7000FF] font-semibold hover:text-purple-900 transition-colors"
                   >
                     pricing plans
                   </a>
                   . Once you complete the payment, we will email or{" "}
                   <Link
                     href="/contact"
-                    className="text-[#7000FF] font-semibold hover:text-orange-700 transition-colors"
+                    className="text-[#7000FF] font-semibold hover:text-purple-900 transition-colors"
                   >
                     WhatsApp
                   </Link>{" "}
@@ -88,7 +87,7 @@ export default function HowItWorksSection() {
           <div className="relative mb-16 md:mb-20">
             {/* Step Badge */}
             <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-              <span className="bg-[#7000FF] text-black font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
+              <span className="bg-[#7000FF] text-white font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(112,0,255,0.4)]">
                 Step Two
               </span>
             </div>
@@ -108,21 +107,20 @@ export default function HowItWorksSection() {
               </div>
 
               {/* Right Card */}
-              <div className="bg-white text-slate-100 p-8 rounded-2xl shadow-xl relative border border-stone-200 order-1 md:order-2"
-              >
+              <div className="bg-white text-slate-800 p-8 rounded-2xl shadow-xl relative border border-stone-200 order-1 md:order-2">
                 <h3 className="text-xl font-extrabold text-[#7000FF] mb-3">
                   <Link
                     href="/installation"
-                    className="hover:text-orange-700 transition-colors"
+                    className="hover:text-purple-900 transition-colors"
                   >
                     2. Install Your BINGETRAX App
                   </Link>
                 </h3>
-                <p className="text-slate-400 text-sm leading-relaxed">
+                <p className="text-slate-600 text-sm leading-relaxed">
                   Use our step-by-step{" "}
                   <Link
                     href="/installation"
-                    className="text-[#7000FF] font-semibold hover:text-orange-700 transition-colors"
+                    className="text-[#7000FF] font-semibold hover:text-purple-900 transition-colors"
                   >
                     BINGETRAX IPTV installation guides
                   </Link>{" "}
@@ -136,28 +134,27 @@ export default function HowItWorksSection() {
           <div className="relative">
             {/* Step Badge */}
             <div className="md:absolute md:left-1/2 md:-translate-x-1/2 md:-top-4 z-20 flex justify-center mb-6 md:mb-0">
-              <span className="bg-[#7000FF] text-black font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(255,107,0,0.6)]">
+              <span className="bg-[#7000FF] text-white font-extrabold text-xs uppercase tracking-wider px-5 py-1.5 rounded-full shadow-[0_0_15px_rgba(112,0,255,0.4)]">
                 Step Three
               </span>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pt-6">
               {/* Left Card */}
-              <div className="bg-white text-slate-100 p-8 rounded-2xl shadow-xl relative border border-stone-200"
-              >
+              <div className="bg-white text-slate-800 p-8 rounded-2xl shadow-xl relative border border-stone-200">
                 <h3 className="text-xl font-extrabold text-[#7000FF] mb-3">
                   <Link
                     href="/channels"
-                    className="hover:text-orange-700 transition-colors"
+                    className="hover:text-purple-900 transition-colors"
                   >
                     3. Stream BINGETRAX Live TV & VOD
                   </Link>
                 </h3>
-                <p className="text-slate-400 text-sm leading-relaxed">
-                  Start streaming! Enjoy <strong>+50,000 Channels</strong>, plus a massive Video on Demand (VOD) library of movies and series from our{" "}
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  Start streaming! Enjoy <strong className="text-slate-900 font-bold">+50,000 Channels</strong>, plus a massive Video on Demand (VOD) library of movies and series from our{" "}
                   <Link
                     href="/channels"
-                    className="text-[#7000FF] font-semibold hover:text-orange-700 transition-colors"
+                    className="text-[#7000FF] font-semibold hover:text-purple-900 transition-colors"
                   >
                     channels catalog
                   </Link>

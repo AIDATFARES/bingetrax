@@ -41,13 +41,13 @@ export default function MovieStrips() {
 
       {/* Brand Logos Tape */}
       <div className="z-20 w-full mb-10">
-        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-6">50,000+ BINGETRAX Live Channels</h3>
+        <h3 className="text-center text-sm font-bold tracking-widest text-slate-700 uppercase mb-6">50,000+ BINGETRAX Live Channels</h3>
         <BrandMarquee />
       </div>
 
       {/* Top Strip (Right to Left) */}
       <div className="w-full mb-4 z-20">
-        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-2">200,000+ BINGETRAX Movies & Series</h3>
+        <h3 className="text-center text-sm font-bold tracking-widest text-slate-700 uppercase mb-2">200,000+ BINGETRAX Movies & Series</h3>
       </div>
       <div className="relative flex w-max items-center">
         <div className="flex gap-4 md:gap-6 px-2 md:px-3 animate-marquee" style={{ animationDuration: '30s' }}>

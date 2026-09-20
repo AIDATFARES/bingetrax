@@ -51,7 +51,7 @@ export default function DeviceSupport() {
                   BINGETRAX on Any Device
                 </span>
               </h2>
-              <p className="text-slate-500 text-lg md:text-xl leading-relaxed w-full">
+              <p className="text-slate-600 text-lg md:text-xl leading-relaxed w-full">
                 BINGETRAX IPTV is engineered to adapt flawlessly to your setup. From 4K Smart TVs in your living room to smartphones and streaming sticks on the move, enjoy a <Link href="/installation" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">premium viewing experience</Link> anywhere.
               </p>
             </div>
@@ -62,8 +62,8 @@ export default function DeviceSupport() {
                 <div className="bg-slate-50 p-3 rounded-xl w-12 h-12 flex items-center justify-center text-[#7000FF] mb-4 group-hover:bg-[#7000FF]/10 transition-colors">
                   <Tv size={24} />
                 </div>
-                <h4 className="font-bold text-black mb-1">Smart TVs</h4>
-                <p className="text-slate-500 text-sm">Samsung, LG, Android TV.</p>
+                <h3 className="font-bold text-black mb-1 text-base">Smart TVs</h3>
+                <p className="text-slate-600 text-sm">Samsung, LG, Android TV.</p>
               </div>
 
               {/* Feature 2 */}
@@ -71,8 +71,8 @@ export default function DeviceSupport() {
                 <div className="bg-slate-50 p-3 rounded-xl w-12 h-12 flex items-center justify-center text-[#7000FF] mb-4 group-hover:bg-[#7000FF]/10 transition-colors">
                   <Monitor size={24} />
                 </div>
-                <h4 className="font-bold text-black mb-1">Computers</h4>
-                <p className="text-slate-500 text-sm">Windows & Mac Support.</p>
+                <h3 className="font-bold text-black mb-1 text-base">Computers</h3>
+                <p className="text-slate-600 text-sm">Windows & Mac Support.</p>
               </div>
 
               {/* Feature 3 */}
@@ -80,8 +80,8 @@ export default function DeviceSupport() {
                 <div className="bg-slate-50 p-3 rounded-xl w-12 h-12 flex items-center justify-center text-[#7000FF] mb-4 group-hover:bg-[#7000FF]/10 transition-colors">
                   <Box size={24} />
                 </div>
-                <h4 className="font-bold text-black mb-1">Set-Top Boxes</h4>
-                <p className="text-slate-500 text-sm">Firestick, MAG & Apple TV.</p>
+                <h3 className="font-bold text-black mb-1 text-base">Set-Top Boxes</h3>
+                <p className="text-slate-600 text-sm">Firestick, MAG & Apple TV.</p>
               </div>
 
               {/* Feature 4 */}
@@ -89,8 +89,8 @@ export default function DeviceSupport() {
                 <div className="bg-slate-50 p-3 rounded-xl w-12 h-12 flex items-center justify-center text-[#7000FF] mb-4 group-hover:bg-[#7000FF]/10 transition-colors">
                   <Smartphone size={24} />
                 </div>
-                <h4 className="font-bold text-black mb-1">Mobile & Tablets</h4>
-                <p className="text-slate-500 text-sm">Watch anywhere on the go.</p>
+                <h3 className="font-bold text-black mb-1 text-base">Mobile & Tablets</h3>
+                <p className="text-slate-600 text-sm">Watch anywhere on the go.</p>
               </div>
             </div>
 

@@ -43,25 +43,25 @@ export default function ComparisonSection() {
 
             {/* Table Header */}
             <div className="grid grid-cols-4 gap-4 mb-6 relative z-10">
-              <div className="text-left font-bold text-slate-400 uppercase tracking-widest text-sm flex items-end pb-4">Features</div>
+              <div className="text-left font-bold text-slate-700 uppercase tracking-widest text-sm flex items-end pb-4">Features</div>
               
               <div className="flex flex-col items-center justify-center bg-gradient-to-r from-[#7000FF] to-[#FF00BD] text-white rounded-2xl p-5 shadow-[0_10px_30px_rgba(112,0,255,0.3)] transform -translate-y-4 scale-105 border-2 border-white">
-                <span className="text-[10px] uppercase tracking-widest font-bold opacity-80 mb-1">Premium Choice</span>
+                <span className="text-[10px] uppercase tracking-widest font-bold opacity-90 mb-1">Premium Choice</span>
                 <span className="text-2xl font-black tracking-tight">BINGETRAX</span>
               </div>
               
-              <div className="text-center font-bold text-slate-400 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Cable / Satellite</div>
-              <div className="text-center font-bold text-slate-400 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Other IPTV</div>
+              <div className="text-center font-bold text-slate-700 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Cable / Satellite</div>
+              <div className="text-center font-bold text-slate-700 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Other IPTV</div>
             </div>
 
             {/* Table Rows */}
             <div className="relative z-10">
               {rows.map((row, idx) => (
                 <div key={idx} className="grid grid-cols-4 gap-4 py-5 border-b border-slate-100 last:border-0 items-center group hover:bg-slate-50/50 transition-colors rounded-xl px-2 -mx-2">
-                  <div className="font-bold text-slate-700 text-sm sm:text-base">{row.feature}</div>
+                  <div className="font-bold text-slate-800 text-sm sm:text-base">{row.feature}</div>
                   <div className="font-black text-[#7000FF] text-center text-base sm:text-lg group-hover:scale-105 transition-transform">{row.bingetrax}</div>
-                  <div className="font-medium text-slate-500 text-center text-sm">{row.cable}</div>
-                  <div className="font-medium text-slate-500 text-center text-sm">{row.other}</div>
+                  <div className="font-medium text-slate-700 text-center text-sm">{row.cable}</div>
+                  <div className="font-medium text-slate-700 text-center text-sm">{row.other}</div>
                 </div>
               ))}
             </div>
@@ -76,7 +76,7 @@ export default function ComparisonSection() {
               <div className="space-y-4">
                 {rows.map((row, idx) => (
                   <div key={idx} className="flex justify-between items-center border-b border-white/10 pb-3 last:border-0 last:pb-0">
-                    <span className="text-white/70 text-sm">{row.feature}</span>
+                    <span className="text-white text-sm font-medium">{row.feature}</span>
                     <span className="font-bold text-white text-right">{row.bingetrax}</span>
                   </div>
                 ))}
@@ -85,12 +85,12 @@ export default function ComparisonSection() {
           </div>
 
           <div className="bg-white rounded-3xl shadow-lg border border-slate-200 p-6">
-            <h3 className="text-xl font-bold mb-6 text-center text-slate-400">Cable / Satellite</h3>
+            <h3 className="text-xl font-bold mb-6 text-center text-slate-800">Cable / Satellite</h3>
             <div className="space-y-4">
               {rows.map((row, idx) => (
                 <div key={idx} className="flex justify-between items-center border-b border-slate-100 pb-3 last:border-0 last:pb-0">
-                  <span className="text-slate-500 text-sm">{row.feature}</span>
-                  <span className="font-medium text-slate-700 text-right">{row.cable}</span>
+                  <span className="text-slate-700 text-sm font-medium">{row.feature}</span>
+                  <span className="font-bold text-slate-800 text-right">{row.cable}</span>
                 </div>
               ))}
             </div>
