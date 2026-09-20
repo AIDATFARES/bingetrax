@@ -18,11 +18,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
-    return { title: 'Post Not Found | BINGETRAX IPTV' };
+    return { title: 'Post Not Found | BINGETRAX' };
   }
 
   return {
-    title: post.title,
+    title: `${post.title} | BINGETRAX`,
     description: post.description,
     alternates: {
       canonical: `/blog/${post.slug}`,

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Legal Disclaimer & DMCA | BINGETRAX IPTV",
-  description: "Legal Disclaimer and DMCA policy for BINGETRAX IPTV.",
+  title: "DMCA Copyright Disclaimer & Notice | BINGETRAX",
+  description: "BINGETRAX copyright infringement policies, DMCA compliance procedures, and official legal notice guidelines.",
   alternates: {
     canonical: "/dmca",
   },

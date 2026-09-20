@@ -22,15 +22,15 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "BINGETRAX IPTV | #1 Premium 4K IPTV Subscription Service",
-  description: "Upgrade your entertainment with BINGETRAX IPTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
+  title: "BINGETRAX IPTV – #1 Premium 4K IPTV Service | Free Trial & Fast Setup",
+  description: "Stream 50,000+ live channels, 4K sports & 120,000+ movies with zero buffering. Save up to 80% on cable. Get instant activation & test BINGETRAX risk-free today!",
   metadataBase: new URL("https://www.bingetrax.top"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "BINGETRAX IPTV | #1 Premium 4K IPTV Subscription Service",
-    description: "Upgrade your entertainment with BINGETRAX IPTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
+    title: "BINGETRAX IPTV – #1 Premium 4K IPTV Service | Free Trial & Fast Setup",
+    description: "Stream 50,000+ live channels, 4K sports & 120,000+ movies with zero buffering. Save up to 80% on cable. Get instant activation & test BINGETRAX risk-free today!",
     url: "https://www.bingetrax.top",
     siteName: "BINGETRAX IPTV",
     images: [
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BINGETRAX IPTV | #1 Premium 4K IPTV Subscription Service",
-    description: "Upgrade your entertainment with BINGETRAX IPTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
+    title: "BINGETRAX IPTV – #1 Premium 4K IPTV Service | Free Trial & Fast Setup",
+    description: "Stream 50,000+ live channels, 4K sports & 120,000+ movies with zero buffering. Save up to 80% on cable. Get instant activation & test BINGETRAX risk-free today!",
     images: ["/og-image.webp"],
   },
 };

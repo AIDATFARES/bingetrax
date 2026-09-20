@@ -3,8 +3,9 @@ import Link from "next/link";
 import { PlayCircle, ShieldCheck, Zap, Phone, MonitorSmartphone, Globe2, CheckCircle2 } from "lucide-react";
 
 export const metadata = {
-  title: "How It Works | BINGETRAX IPTV",
-  description: "Learn how easy it is to set up and start streaming with BINGETRAX IPTV. Our 3-step process gets you watching premium live TV and VOD in minutes.",
+  title: "How BINGETRAX IPTV Works | 3-Step Setup & Instant Streaming",
+  description:
+    "Start watching premium TV in under 5 minutes. Learn how BINGETRAX delivers 4K live channels and movies to your screens with zero contracts and instant activation.",
   alternates: {
     canonical: "/how-it-works",
   },

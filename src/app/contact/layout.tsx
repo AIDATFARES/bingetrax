@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Contact Customer Support | BINGETRAX IPTV",
-  description: "Get 24/7 technical support, billing assistance, and trial setup help from the BINGETRAX IPTV support team via WhatsApp and email.",
+  title: "24/7 Customer Support & Help Center | BINGETRAX",
+  description:
+    "Need fast assistance? Contact BINGETRAX support 24/7 via live WhatsApp or email. Instant troubleshooting, account activation, and subscription help.",
   alternates: {
     canonical: "/contact",
   },

@@ -1,8 +1,9 @@
 import PricingPageContent from "@/components/pricing/PricingPageContent";
 
 export const metadata = {
-  title: "IPTV Subscription Plans & Pricing | BINGETRAX IPTV",
-  description: "Explore flexible, buffer-free BINGETRAX IPTV subscription plans. Stream 50,000+ live channels, sports, and VOD in crystal-clear 4K.",
+  title: "Affordable IPTV Subscription Plans & Deals | BINGETRAX",
+  description:
+    "Discover high-performance IPTV plans starting at $11.99/mo. 50,000+ channels, 4K live sports, and instant activation with a 7-day money-back guarantee.",
   alternates: {
     canonical: "/pricing",
   },

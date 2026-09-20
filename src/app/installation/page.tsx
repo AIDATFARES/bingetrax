@@ -5,8 +5,9 @@ import BrandMarquee from "@/components/home/BrandMarquee";
 import { Clock3, Download, Headphones, Link2, Monitor, PlayCircle } from "lucide-react";
 
 export const metadata = {
-  title: "How to Setup BINGETRAX IPTV on Any Device | Installation Guide",
-  description: "Complete step-by-step installation guides to set up BINGETRAX IPTV on Smart TV, Firestick, Android, iOS, Windows, and MAG.",
+  title: "How to Setup BINGETRAX IPTV in 5 Minutes | Easy Device Guides",
+  description:
+    "Easy step-by-step setup tutorials for BINGETRAX IPTV. Quick installation for Firestick, Smart TV, Android, iOS, Windows, and MAG boxes with instant M3U codes.",
   alternates: {
     canonical: "/installation",
   },

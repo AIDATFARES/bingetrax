@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Refund Policy | BINGETRAX IPTV",
-  description: "Learn about the refund policy, eligibility, and process for BINGETRAX IPTV.",
+  title: "Refund Policy & 7-Day Guarantee | BINGETRAX",
+  description: "Review BINGETRAX 7-day money-back guarantee, refund conditions, and customer satisfaction commitments.",
   alternates: {
     canonical: "/refund-policy",
   },

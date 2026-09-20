@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | BINGETRAX IPTV",
-  description: "Learn how BINGETRAX IPTV collects, uses, and protects personal information.",
+  title: "Privacy Policy & Data Security | BINGETRAX",
+  description: "Learn how BINGETRAX protects your privacy, secures personal data, and ensures safe, encrypted transactions.",
   alternates: {
     canonical: "/privacy-policy",
   },

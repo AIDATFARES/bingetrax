@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "IPTV Channels List (50,000+ Channels & VOD) | BINGETRAX IPTV",
-  description: "Browse the complete BINGETRAX IPTV channel lineup. Stream 50,000+ live TV channels and 120,000+ movies & series in 4K/FHD from 160+ countries.",
+  title: "50,000+ Live IPTV Channel List & 4K VOD | BINGETRAX",
+  description:
+    "Explore the complete 2025 channel lineup: Live sports, PPV events, local news & 120,000+ movies in 4K from 160+ countries. Find your favorite channels now!",
   alternates: {
     canonical: "/channels",
   },

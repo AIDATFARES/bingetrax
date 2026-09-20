@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions (FAQ) | BINGETRAX IPTV",
-  description: "Find answers to all your questions about BINGETRAX IPTV subscriptions, device setup, streaming quality, payments, and 24/7 technical support.",
+  title: "IPTV FAQ – Questions, Setup & Speed Requirements | BINGETRAX",
+  description:
+    "Got questions about IPTV? Find quick answers on device compatibility, recommended internet speeds, 4K streaming quality, playlists, and instant setup.",
   alternates: {
     canonical: "/faq",
   },
