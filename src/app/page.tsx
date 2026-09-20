@@ -34,13 +34,22 @@ export default function Home() {
         <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-4">All Major Sports & Leagues Live</h3>
       </div>
       <BrandMarquee 
-        imagesFolder="dawryate2" 
+        imagesFolder="sports" 
         images={[
-          "Untitled-design-50.webp", "Untitled-design-51.webp", "Untitled-design-52.webp", 
-          "Untitled-design-53.webp", "Untitled-design-54.webp", "Untitled-design-55.webp", 
-          "Untitled-design-56.webp", "Untitled-design-57.webp", "Untitled-design-58.webp"
+          "sport1.webp",
+          "sport2.webp",
+          "sport3.webp",
+          "sport4.webp",
+          "sport5.webp",
+          "sport6.webp",
+          "sport7.webp",
+          "sport8.webp",
+          "sport9.webp",
+          "sport10.webp",
+          "sport11.webp",
+          "sport12.webp"
         ]}
-        cardClassName="flex-shrink-0 w-[140px] h-[200px] md:w-[200px] md:h-[280px] relative rounded-xl overflow-hidden shadow-2xl border border-black/10 bg-white hover:border-[#7000FF]/60 transition-all duration-300 group"
+        cardClassName="flex-shrink-0 w-[140px] h-[220px] md:w-[180px] md:h-[280px] relative rounded-xl overflow-hidden shadow-2xl border border-black/10 bg-black hover:border-[#7000FF]/60 hover:scale-[1.03] transition-all duration-300 group"
         imageClassName="object-cover rounded-xl"
       />
 
