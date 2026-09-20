@@ -4,12 +4,12 @@ import { ArrowRight, HelpCircle } from "lucide-react";
 const faqs = [
   {
     id: 1,
-    question: "1. What is ArgonTV?",
+    question: "1. What is BingeTrax?",
     answer: (
       <>
-        ArgonTV is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
+        BingeTrax is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
         <Link
-          href="/channels-list"
+          href="/channels"
           className="text-[#7000FF] font-semibold hover:text-[#FF00BD] transition-colors"
         >
           live TV channels
@@ -27,12 +27,12 @@ const faqs = [
   },
   {
     id: 2,
-    question: "2. Do I need a subscription to use ArgonTV?",
+    question: "2. Do I need a subscription to use BingeTrax?",
     answer: (
       <>
         Yes, a subscription is required. However, we offer a{" "}
         <a
-          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20argontv%20IPTV."
+          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BingeTrax%20IPTV."
           target="_blank"
           rel="noreferrer"
           className="text-primary-500 font-semibold hover:text-primary-400 transition-colors"
@@ -52,10 +52,10 @@ const faqs = [
   },
   {
     id: 3,
-    question: "3. What devices are compatible with ArgonTV?",
+    question: "3. What devices are compatible with BingeTrax?",
     answer: (
       <>
-        ArgonTV works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
+        BingeTrax works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
         <Link
           href="/installation"
           className="text-primary-500 font-semibold hover:text-primary-400 transition-colors"
@@ -84,12 +84,12 @@ const faqs = [
   },
   {
     id: 5,
-    question: "5. Can I watch sports on ArgonTV?",
+    question: "5. Can I watch sports on BingeTrax?",
     answer: (
       <>
         Absolutely. We offer a wide selection of live sports channels, including major leagues and international events. Explore our full{" "}
         <Link
-          href="/channels-list"
+          href="/channels"
           className="text-[#7000FF] font-semibold hover:text-[#FF00BD] transition-colors"
         >
           channels catalog

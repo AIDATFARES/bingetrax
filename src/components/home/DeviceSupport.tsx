@@ -51,7 +51,7 @@ export default function DeviceSupport() {
                 </span>
               </h2>
               <p className="text-slate-500 text-lg md:text-xl leading-relaxed w-full">
-                ArgonTV is designed to adapt to your lifestyle. From the biggest screen in your living room to the smartphone in your pocket, enjoy a <Link href="/installation" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">premium viewing experience</Link> anywhere.
+                BingeTrax IPTV is designed to adapt to your lifestyle. From the biggest screen in your living room to the smartphone in your pocket, enjoy a <Link href="/installation" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">premium viewing experience</Link> anywhere.
               </p>
             </div>
 

@@ -41,7 +41,7 @@ const defaultFeatures: PlanFeature[] = [
 const plans: Plan[] = [
   {
     id: "3-months",
-    name: "FIESTA BASIC",
+    name: "BINGE BASIC",
     subtitle: "Perfect for trying out our premium service.",
     price: 35,
     durationLabel: "3 Months",
@@ -52,7 +52,7 @@ const plans: Plan[] = [
   },
   {
     id: "12-months",
-    name: "FIESTA ULTIMATE",
+    name: "BINGE ULTIMATE",
     subtitle: "The ultimate entertainment experience for a full year.",
     price: 69.99,
     oldPrice: 80,
@@ -65,7 +65,7 @@ const plans: Plan[] = [
   },
   {
     id: "6-months",
-    name: "FIESTA PRO",
+    name: "BINGE PRO",
     subtitle: "A solid choice for half a year of uninterrupted joy.",
     price: 49.99,
     durationLabel: "6 Months",
@@ -83,7 +83,7 @@ export default function PricingSection() {
 
   function handleOrder(plan: Plan) {
     const text = encodeURIComponent(
-      `Hello! I would like to purchase the ${plan.name} plan (${plan.durationLabel}) with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
+      `Hello! I would like to purchase the BingeTrax ${plan.name} plan (${plan.durationLabel}) with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
     );
     window.open(`https://wa.me/213552069874?text=${text}`, "_blank", "noopener,noreferrer");
   }

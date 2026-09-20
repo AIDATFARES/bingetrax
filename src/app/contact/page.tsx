@@ -29,9 +29,9 @@ export default function Contact() {
             <p className="text-sm text-slate-500 mb-6 font-medium">For general inquiries and support.</p>
             <a
               className="text-[#7000FF] font-bold hover:text-[#FF00BD] transition-colors"
-              href="mailto:support@argontv.shop"
+              href="mailto:support@bingetrax.top"
             >
-              support@argontv.shop
+              support@bingetrax.top
             </a>
           </div>
 
@@ -45,7 +45,7 @@ export default function Contact() {
             </p>
             <a
               className="text-[#25D366] font-bold hover:text-[#20bd5a] transition-colors flex items-center gap-2"
-              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20ArgonTV."
+              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20BingeTrax%20IPTV."
               target="_blank"
               rel="noreferrer"
             >

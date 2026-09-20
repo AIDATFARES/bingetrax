@@ -187,7 +187,7 @@ export default function ChannelsPage() {
             transition={{ delay: 0.1 }}
             className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight"
           >
-            <span className="block text-black">Popular ArgonTV</span>
+            <span className="block text-black">Popular BingeTrax</span>
             <span className="mt-1 block text-[#7000FF]">Live Channels &amp; VOD.</span>
           </motion.h1>
 
@@ -358,7 +358,7 @@ export default function ChannelsPage() {
                 View IPTV Subscription Plans
               </Link>
               <a
-                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20argontv%20IPTV."
+                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BingeTrax%20IPTV."
                 target="_blank"
                 rel="noreferrer"
                 className="px-8 py-4 rounded-full bg-white border-2 border-slate-200 text-black font-black text-sm uppercase tracking-wider hover:border-[#7000FF] transition-colors"

@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
-    return { title: 'Post Not Found | ArgonTV' };
+    return { title: 'Post Not Found | BingeTrax IPTV' };
   }
 
   return {

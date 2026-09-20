@@ -157,8 +157,8 @@ export default function ResellerPageContent() {
 
   const handleOrderPanel = (plan?: CreditPlan) => {
     const message = plan
-      ? `Hello! I would like to order the IPTV Reseller Panel with ${plan.credits} Credits for $${plan.price}.`
-      : `Hello! I am interested in becoming an IPTV Reseller and would like to request panel access.`;
+      ? `Hello! I would like to order the BingeTrax IPTV Reseller Panel with ${plan.credits} Credits for $${plan.price}.`
+      : `Hello! I am interested in becoming a BingeTrax IPTV Reseller and would like to request panel access.`;
     window.open(
       `https://wa.me/213552069874?text=${encodeURIComponent(message)}`,
       "_blank",
@@ -167,7 +167,7 @@ export default function ResellerPageContent() {
   };
 
   const handleFreeTrial = () => {
-    const message = `Hello! I am interested in testing an IPTV Reseller Panel free trial account.`;
+    const message = `Hello! I am interested in testing a BingeTrax IPTV Reseller Panel free trial account.`;
     window.open(
       `https://wa.me/213552069874?text=${encodeURIComponent(message)}`,
       "_blank",

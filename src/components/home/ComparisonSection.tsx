@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export default function ComparisonSection() {
   const rows = [
-    { feature: "Monthly Cost", fiesta: "From $4.2/mo", cable: "$80-$200/mo", other: "$10-$30/mo (unreliable)" },
-    { feature: "Live Channels", fiesta: "+50,000 Channels", cable: "200-500", other: "5,000-15,000" },
-    { feature: "4K Streaming", fiesta: "✓ Native 4K", cable: "Limited", other: "Rarely stable" },
-    { feature: "VOD Library", fiesta: "+120,000 Films", cable: "Add-on cost", other: "Varies wildly" },
-    { feature: "Server Uptime", fiesta: "99.9% Guaranteed", cable: "99%", other: "60-85%" },
-    { feature: "Buffering", fiesta: "Zero — Ever", cable: "Rare", other: "Common at peak" },
-    { feature: "Setup Time", fiesta: "5 minutes", cable: "Technician visit", other: "Varies" },
-    { feature: "Contract", fiesta: "No", cable: "12-24 months", other: "Sometimes" },
-    { feature: "Multi-Screen", fiesta: "✓ Included", cable: "Extra cost", other: "Limited" },
-    { feature: "Free Trial", fiesta: "✓ Available", cable: "No", other: "Rare" },
+    { feature: "Monthly Cost", bingetrax: "From $4.2/mo", cable: "$80-$200/mo", other: "$10-$30/mo (unreliable)" },
+    { feature: "Live Channels", bingetrax: "+50,000 Channels", cable: "200-500", other: "5,000-15,000" },
+    { feature: "4K Streaming", bingetrax: "✓ Native 4K", cable: "Limited", other: "Rarely stable" },
+    { feature: "VOD Library", bingetrax: "+120,000 Films", cable: "Add-on cost", other: "Varies wildly" },
+    { feature: "Server Uptime", bingetrax: "99.9% Guaranteed", cable: "99%", other: "60-85%" },
+    { feature: "Buffering", bingetrax: "Zero — Ever", cable: "Rare", other: "Common at peak" },
+    { feature: "Setup Time", bingetrax: "5 minutes", cable: "Technician visit", other: "Varies" },
+    { feature: "Contract", bingetrax: "No", cable: "12-24 months", other: "Sometimes" },
+    { feature: "Multi-Screen", bingetrax: "✓ Included", cable: "Extra cost", other: "Limited" },
+    { feature: "Free Trial", bingetrax: "✓ Available", cable: "No", other: "Rare" },
   ];
 
   return (
@@ -24,7 +24,7 @@ export default function ComparisonSection() {
             IPTV vs Cable TV
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-[1.1]">
-            Why ArgonTV is the <br/>
+            Why BingeTrax is the <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
               Best Cable Alternative
             </span>
@@ -38,7 +38,7 @@ export default function ComparisonSection() {
         <div className="hidden md:block relative max-w-5xl mx-auto">
           <div className="bg-white rounded-[2rem] shadow-[0_20px_60px_-15px_rgba(112,0,255,0.15)] border border-slate-100 p-8 pb-10 relative overflow-hidden">
             
-            {/* Highlight Background for ArgonTV Column */}
+            {/* Highlight Background for BingeTrax Column */}
             <div className="absolute top-0 bottom-0 left-[25%] w-[25%] bg-gradient-to-b from-[#7000FF]/5 to-[#FF00BD]/5 border-x border-[#7000FF]/20 shadow-[0_0_50px_rgba(112,0,255,0.05)]"></div>
 
             {/* Table Header */}
@@ -47,7 +47,7 @@ export default function ComparisonSection() {
               
               <div className="flex flex-col items-center justify-center bg-gradient-to-r from-[#7000FF] to-[#FF00BD] text-white rounded-2xl p-5 shadow-[0_10px_30px_rgba(112,0,255,0.3)] transform -translate-y-4 scale-105 border-2 border-white">
                 <span className="text-[10px] uppercase tracking-widest font-bold opacity-80 mb-1">Premium Choice</span>
-                <span className="text-2xl font-black tracking-tight">ArgonTV</span>
+                <span className="text-2xl font-black tracking-tight">BingeTrax</span>
               </div>
               
               <div className="text-center font-bold text-slate-400 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Cable / Satellite</div>
@@ -59,7 +59,7 @@ export default function ComparisonSection() {
               {rows.map((row, idx) => (
                 <div key={idx} className="grid grid-cols-4 gap-4 py-5 border-b border-slate-100 last:border-0 items-center group hover:bg-slate-50/50 transition-colors rounded-xl px-2 -mx-2">
                   <div className="font-bold text-slate-700 text-sm sm:text-base">{row.feature}</div>
-                  <div className="font-black text-[#7000FF] text-center text-base sm:text-lg group-hover:scale-105 transition-transform">{row.fiesta}</div>
+                  <div className="font-black text-[#7000FF] text-center text-base sm:text-lg group-hover:scale-105 transition-transform">{row.bingetrax}</div>
                   <div className="font-medium text-slate-500 text-center text-sm">{row.cable}</div>
                   <div className="font-medium text-slate-500 text-center text-sm">{row.other}</div>
                 </div>
@@ -72,12 +72,12 @@ export default function ComparisonSection() {
         <div className="md:hidden space-y-8">
           <div className="bg-gradient-to-br from-[#7000FF] to-[#FF00BD] rounded-3xl p-1 relative shadow-xl">
             <div className="bg-black/20 text-white rounded-[1.35rem] p-6 backdrop-blur-sm">
-              <h3 className="text-2xl font-black mb-6 text-center">ArgonTV</h3>
+              <h3 className="text-2xl font-black mb-6 text-center">BingeTrax</h3>
               <div className="space-y-4">
                 {rows.map((row, idx) => (
                   <div key={idx} className="flex justify-between items-center border-b border-white/10 pb-3 last:border-0 last:pb-0">
                     <span className="text-white/70 text-sm">{row.feature}</span>
-                    <span className="font-bold text-white text-right">{row.fiesta}</span>
+                    <span className="font-bold text-white text-right">{row.bingetrax}</span>
                   </div>
                 ))}
               </div>

@@ -47,7 +47,7 @@ export default function Home() {
       {/* Channel & Installation Quick Links */}
       <div className="w-full bg-white py-6 px-4 text-center border-t border-black/5 relative z-20">
         <p className="text-center text-sm md:text-base text-slate-600 max-w-3xl mx-auto">
-          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#7000FF] hover:text-[#f44336]" href="/channels">ArgonTV Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#7000FF] hover:text-[#f44336]" href="/installation">ArgonTV Installation Guide</Link> for a quick start.
+          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#7000FF] hover:text-[#f44336]" href="/channels">BingeTrax Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#7000FF] hover:text-[#f44336]" href="/installation">BingeTrax Installation Guide</Link> for a quick start.
         </p>
       </div>
 

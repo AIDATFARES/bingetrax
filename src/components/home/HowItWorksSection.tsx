@@ -7,7 +7,7 @@ export default function HowItWorksSection() {
       <div className="max-w-[1240px] mx-auto px-6">
 
         {/* ========================================================================= */}
-        {/* PART 1: How does it work? ArgonTV Timeline */}
+        {/* PART 1: How does it work? BingeTrax IPTV Timeline */}
         {/* ========================================================================= */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/10 text-[#7000FF] font-bold text-xs tracking-widest uppercase mb-6 border border-[#7000FF]/20">
@@ -20,7 +20,7 @@ export default function HowItWorksSection() {
             </span>
           </h2>
           <p className="text-slate-700 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
-            Setting up your ArgonTV account is quick and simple. Follow our 3-step process to get instant access to <Link href="/channels" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] transition-colors">live TV, movies, and series</Link>.
+            Setting up your BingeTrax IPTV account is quick and simple. Follow our 3-step process to get instant access to <Link href="/channels" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] transition-colors">live TV, movies, and series</Link>.
           </p>
         </div>
 
