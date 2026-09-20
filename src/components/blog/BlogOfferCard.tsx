@@ -31,9 +31,9 @@ export default function BlogOfferCard({
           <span className="text-[11px] font-black uppercase tracking-[0.2em] text-[#FF00BD]">{badge}</span>
         </div>
         
-        <h3 className="text-3xl sm:text-4xl font-black text-white leading-tight mb-4 tracking-tight !mt-0">
+        <p className="text-3xl sm:text-4xl font-black text-white leading-tight mb-4 tracking-tight !mt-0">
           {heading}
-        </h3>
+        </p>
         
         <p className="text-slate-300 text-base sm:text-lg leading-relaxed mb-8 w-full max-w-2xl mx-auto block !mt-0">
           {copy}

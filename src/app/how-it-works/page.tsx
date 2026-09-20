@@ -25,7 +25,7 @@ export default function HowItWorksPage() {
             Simple Setup Guide · BINGETRAX
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white tracking-tight leading-[1.1] mb-6">
-            Stream with BINGETRAX in <br />
+            Stream with BINGETRAX IPTV in <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
               Under 5 Minutes
             </span>

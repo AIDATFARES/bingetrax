@@ -99,7 +99,7 @@ export default function PricingSection() {
           <h2 className="mt-5 text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-[1.1]">
             Choose Your <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
-              BINGETRAX Subscription
+              BINGETRAX IPTV Subscription
             </span>
           </h2>
           <p className="mt-5 text-xl font-bold tracking-wide text-black sm:text-2xl">Affordable, Buffer-Free Streaming</p>
@@ -204,10 +204,10 @@ export default function PricingSection() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6 rounded-2xl bg-white border border-slate-200 p-6 shadow-sm">
             
             <div className="flex flex-col gap-2 text-center sm:text-left">
-              <h4 className="text-base font-bold text-black flex items-center justify-center sm:justify-start gap-2">
+              <p className="text-base font-bold text-black flex items-center justify-center sm:justify-start gap-2">
                 <CheckCircle2 className="h-5 w-5 text-primary-500" />
                 Secure Payments & Instant Access
-              </h4>
+              </p>
               <p className="text-sm text-slate-600">Pay safely using Crypto, Credit Card, or PayPal. Your details are encrypted instantly.</p>
             </div>
 

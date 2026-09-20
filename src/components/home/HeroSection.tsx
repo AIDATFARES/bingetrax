@@ -34,7 +34,7 @@ export default function HeroSection() {
         {/* Headline */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-black tracking-tight leading-[1] text-white drop-shadow-2xl mt-4">
           Experience <span className="text-[#FF00BD] text-glow">BINGETRAX</span><br />
-          Infinite IPTV Entertainment
+          Premium 4K IPTV Streaming Service
         </h1>
 
         {/* Subtitle */}

@@ -10,8 +10,8 @@ export default function Contact() {
           BINGETRAX Support
         </span>
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
-          <span className="block text-black">Get in Touch with</span>
-          <span className="mt-1 block text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">BINGETRAX Support.</span>
+          <span className="block text-black">Contact BINGETRAX IPTV</span>
+          <span className="mt-1 block text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">24/7 Customer Support.</span>
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-sm md:text-base leading-6 text-slate-500 font-medium">
           We&apos;re here to help you get the best BINGETRAX IPTV streaming experience. Send us a message and our support experts will get back to you quickly.
@@ -21,6 +21,7 @@ export default function Contact() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12">
         {/* Contact Info Sidebar */}
         <div className="lg:col-span-4 flex flex-col gap-6">
+          <h2 className="text-2xl font-extrabold text-black mb-2">Direct Support Channels</h2>
           <div className="bg-white shadow-[0_20px_40px_-15px_rgba(112,0,255,0.15)] border border-slate-100 rounded-[2rem] p-8 flex flex-col items-center text-center group hover:-translate-y-1 transition-transform duration-300">
             <div className="w-16 h-16 rounded-2xl bg-[#7000FF]/10 flex items-center justify-center mb-6 group-hover:bg-[#7000FF]/20 transition-colors">
               <Mail className="text-[#7000FF] w-8 h-8" />

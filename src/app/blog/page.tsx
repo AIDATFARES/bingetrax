@@ -12,7 +12,7 @@ export default function Blog() {
     <main className="flex-grow pt-32 pb-24 px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto w-full relative z-10">
       {/* Header */}
       <header className="mb-16 text-center md:text-left">
-        <h1 className="font-display-lg text-display-lg text-on-surface mb-4">BINGETRAX News &amp; Streaming Tips</h1>
+        <h1 className="font-display-lg text-display-lg text-on-surface mb-4">BINGETRAX IPTV Guides &amp; Streaming Tips</h1>
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
           Stay updated with the latest in 4K streaming technology, new channel additions, and guides to optimize your BINGETRAX IPTV experience.
         </p>
@@ -70,9 +70,9 @@ export default function Blog() {
                 </span>
               </div>
               <div className="p-6 flex flex-col flex-grow bg-surface-container-lowest/50">
-                <p className="font-title-md text-title-md text-on-surface mb-3 group-hover:text-primary transition-colors">
+                <h2 className="font-title-md text-title-md text-on-surface mb-3 group-hover:text-primary transition-colors">
                   {post.title}
-                </p>
+                </h2>
                 <p className="font-body-sm text-body-sm text-on-surface-variant mb-4 line-clamp-2">
                   {post.description}
                 </p>

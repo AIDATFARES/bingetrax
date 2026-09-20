@@ -26,7 +26,7 @@ export default function MovieStrips() {
           BINGETRAX ON-DEMAND
         </span>
         <h2 className="text-3xl md:text-5xl font-extrabold text-black mb-4 tracking-tight">
-          THE ULTIMATE <span className="text-[#7000FF]">BINGETRAX CINEMA</span> EXPERIENCE
+          THE ULTIMATE <span className="text-[#7000FF]">BINGETRAX IPTV</span> ENTERTAINMENT EXPERIENCE
         </h2>
         <p className="text-gray-500 max-w-2xl mx-auto text-sm md:text-base mb-8">
           Explore a massive BINGETRAX library of 200,000+ films and series. From the latest blockbuster hits to timeless classics, all available instantly in crystal-clear 4K Ultra HD.

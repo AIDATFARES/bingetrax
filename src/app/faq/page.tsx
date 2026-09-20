@@ -193,7 +193,7 @@ export default function FAQ() {
         <header className="mx-auto mb-12 max-w-3xl text-center md:mb-16">
           <p className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-primary-400">BINGETRAX Help center</p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-tight">
-            Frequently Asked Questions<br />About BINGETRAX
+            Frequently Asked Questions<br />About BINGETRAX IPTV
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-sm sm:text-base leading-relaxed text-slate-700">
             Find answers to common questions about our BINGETRAX IPTV service, including{" "}

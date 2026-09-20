@@ -109,8 +109,8 @@ export default function PricingPageContent() {
         <header className="mx-auto max-w-3xl text-center mb-16">
           <span className="inline-flex rounded-full border border-primary-500/30 bg-primary-500/10 px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary-600">BINGETRAX IPTV</span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
-            <span className="block text-black uppercase">Choose Your Exclusive</span>
-            <span className="mt-1 block text-primary-500 uppercase">BINGETRAX Subscription Plans</span>
+            <span className="block text-black uppercase">BINGETRAX IPTV Subscription Plans</span>
+            <span className="mt-1 block text-primary-500 uppercase">Premium 4K Streaming &amp; Pricing</span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-600 sm:text-base">Choose the BINGETRAX IPTV plan that fits you, with secure checkout and helpful 24/7 support.</p>
           <p className="mx-auto mt-2 max-w-2xl text-sm leading-6 text-slate-500">Need help getting started? Visit our <Link className="font-semibold text-primary-500 hover:text-primary-600" href="/installation">installation guide</Link> or browse the <Link className="font-semibold text-primary-500 hover:text-primary-600" href="/channels">channel list</Link> before you order.</p>
@@ -118,7 +118,7 @@ export default function PricingPageContent() {
 
         {/* Device Selector */}
         <div className="mx-auto mb-10 max-w-2xl" role="radiogroup" aria-label="Number of device connections">
-          <p className="mb-3 text-center text-xs font-bold uppercase tracking-[0.15em] text-slate-500">Choose your connections</p>
+          <h2 className="mb-3 text-center text-xs font-bold uppercase tracking-[0.15em] text-slate-500">Choose your connections &amp; subscription plan</h2>
           <div className="grid grid-cols-3 rounded-2xl border border-primary-500/30 bg-white p-1.5 shadow-sm">
             {[1, 2, 3].map((count) => {
               const selected = devices === count;
@@ -213,7 +213,7 @@ export default function PricingPageContent() {
         <div className="mx-auto mt-16 max-w-4xl">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-6 rounded-2xl bg-white p-6 shadow-sm border border-slate-100 border-l-4 border-l-orange-500">
             <div>
-              <h4 className="text-lg font-bold text-black">Secure Payments & Instant Access</h4>
+              <p className="text-lg font-bold text-black">Secure Payments & Instant Access</p>
               <p className="mt-1 text-sm text-slate-500 font-medium">Pay safely using Crypto, Credit Card, or PayPal. Your details are encrypted instantly.</p>
             </div>
             <div className="flex shrink-0 items-center gap-4 text-slate-600">

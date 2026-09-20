@@ -34,9 +34,9 @@ export default function ArticleFAQAccordion({ faqs }: { faqs: FAQItem[] }) {
             >
               <div className="flex items-center gap-3">
                 <HelpCircle className="w-5 h-5 text-primary-500 shrink-0" />
-                <span className="font-bold text-base sm:text-lg text-black">
+                <h3 className="font-bold text-base sm:text-lg text-black">
                   {faq.question}
-                </span>
+                </h3>
               </div>
               <ChevronDown
                 className={`w-5 h-5 text-slate-600 transition-transform duration-300 shrink-0 ${

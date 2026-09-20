@@ -72,7 +72,7 @@ export default function ComparisonSection() {
         <div className="md:hidden space-y-8">
           <div className="bg-gradient-to-br from-[#7000FF] to-[#FF00BD] rounded-3xl p-1 relative shadow-xl">
             <div className="bg-black/20 text-white rounded-[1.35rem] p-6 backdrop-blur-sm">
-              <h3 className="text-2xl font-black mb-6 text-center">BINGETRAX</h3>
+              <p className="text-2xl font-black mb-6 text-center">BINGETRAX</p>
               <div className="space-y-4">
                 {rows.map((row, idx) => (
                   <div key={idx} className="flex justify-between items-center border-b border-white/10 pb-3 last:border-0 last:pb-0">
@@ -85,7 +85,7 @@ export default function ComparisonSection() {
           </div>
 
           <div className="bg-white rounded-3xl shadow-lg border border-slate-200 p-6">
-            <h3 className="text-xl font-bold mb-6 text-center text-slate-800">Cable / Satellite</h3>
+            <p className="text-xl font-bold mb-6 text-center text-slate-800">Cable / Satellite</p>
             <div className="space-y-4">
               {rows.map((row, idx) => (
                 <div key={idx} className="flex justify-between items-center border-b border-slate-100 pb-3 last:border-0 last:pb-0">

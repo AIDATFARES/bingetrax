@@ -69,7 +69,7 @@ export default function Home() {
       
       {/* Device Logos Marquee */}
       <div className="w-full bg-white border-t border-black/[0.05] pt-12 pb-6 relative z-10">
-        <h3 className="text-center text-sm font-bold tracking-widest text-slate-700 uppercase mb-8">Supported on all your favorite devices</h3>
+        <p className="text-center text-sm font-bold tracking-widest text-slate-700 uppercase mb-8">Supported on all your favorite devices</p>
         <BrandMarquee 
           imagesFolder="devices" 
           images={[

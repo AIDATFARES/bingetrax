@@ -68,7 +68,7 @@ export default function DeviceSetupGuide() {
           <div className="mb-8 rounded-2xl border border-orange-200 bg-orange-50/50 p-5 flex items-start gap-4">
             <HelpCircle className="h-6 w-6 text-[#7000FF] shrink-0" />
             <div>
-              <h4 className="font-bold text-black mb-1">Important Note</h4>
+              <p className="font-bold text-black mb-1">Important Note</p>
               <p className="text-sm leading-relaxed text-slate-700">{device.note}</p>
             </div>
           </div>

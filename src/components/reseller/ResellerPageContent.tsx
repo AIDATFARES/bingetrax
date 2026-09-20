@@ -190,8 +190,8 @@ export default function ResellerPageContent() {
           </span>
 
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight text-black">
-            <span className="block text-black">Become a BINGETRAX Reseller</span>
-            <span className="mt-1 block text-[#7000FF]">And Start Earning Easy Money.</span>
+            <span className="block text-black">BINGETRAX IPTV Reseller Program</span>
+            <span className="mt-1 block text-[#7000FF]">Start Your Own IPTV Business.</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-sm leading-7 text-slate-700 sm:text-base sm:leading-8">
@@ -330,10 +330,10 @@ export default function ResellerPageContent() {
                     onClick={() => toggleFaq(index)}
                     className="flex w-full items-center justify-between px-6 py-4 text-left font-bold text-black transition-colors hover:bg-white/[0.03]"
                   >
-                    <span className="text-sm sm:text-base tracking-wide uppercase font-extrabold flex items-center gap-3">
+                    <h3 className="text-sm sm:text-base tracking-wide uppercase font-extrabold flex items-center gap-3">
                       <span className="text-primary-500">▶</span>
                       {faq.question}
-                    </span>
+                    </h3>
                     {isOpen ? (
                       <ChevronUp className="h-5 w-5 shrink-0 text-primary-500" />
                     ) : (

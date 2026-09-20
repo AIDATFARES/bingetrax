@@ -187,8 +187,8 @@ export default function ChannelsPage() {
             transition={{ delay: 0.1 }}
             className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight"
           >
-            <span className="block text-black">Explore BINGETRAX</span>
-            <span className="mt-1 block text-[#7000FF]">Live Channels &amp; 4K VOD.</span>
+            <span className="block text-black">BINGETRAX IPTV Channels</span>
+            <span className="mt-1 block text-[#7000FF]">50,000+ Live Channels &amp; 4K VOD</span>
           </motion.h1>
 
           <motion.p 
@@ -203,6 +203,14 @@ export default function ChannelsPage() {
 
         {/* SECTION 1: Category Cards Grid (Matching User Reference Image) */}
         <section className="mb-20">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-black">
+              Popular IPTV Channel Categories
+            </h2>
+            <p className="text-slate-600 text-sm mt-1">
+              Explore 50,000+ live television channels grouped by genre and region.
+            </p>
+          </div>
           <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {categoryCards.map((category, index) => {
               const Icon = category.icon;
@@ -228,9 +236,9 @@ export default function ChannelsPage() {
                     </span>
                   )}
 
-                  <h2 className="text-center text-xl font-extrabold text-black tracking-wide">
+                  <h3 className="text-center text-xl font-extrabold text-black tracking-wide">
                     {category.title}
-                  </h2>
+                  </h3>
 
                   <ul className="mt-4 space-y-2.5">
                     {category.items.map((item) => (
@@ -347,7 +355,7 @@ export default function ChannelsPage() {
         <section className="mt-16 bg-[#7000FF]/5 rounded-3xl border-2 border-[#7000FF]/20 p-8 sm:p-12 text-center shadow-lg relative overflow-hidden">
           <div className="relative z-10 max-w-2xl mx-auto">
             <CirclePlay className="w-10 h-10 text-[#7000FF] mx-auto mb-4 animate-bounce" />
-            <h2 className="text-3xl font-black uppercase text-black">Ready to start streaming with BINGETRAX?</h2>
+            <h2 className="text-3xl font-black uppercase text-black">Ready to start streaming with BINGETRAX IPTV?</h2>
             <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
               Choose your BINGETRAX subscription plan to receive instant access credentials on WhatsApp within minutes.
             </p>
