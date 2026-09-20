@@ -12,6 +12,7 @@ export default function HeroSection() {
           src="/hero-interface-neon.webp"
           alt="BINGETRAX IPTV Interface"
           priority
+          fetchPriority="high"
           fill
           quality={75}
           sizes="100vw"

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { blogPosts } from "@/data/blog";
 import { ArrowRight } from "lucide-react";
 
@@ -29,11 +30,13 @@ export default function LatestArticlesSection() {
             <Link href={`/blog/${post.slug}`} key={post.id}>
               <article className="bg-white rounded-2xl overflow-hidden flex flex-col group cursor-pointer hover:-translate-y-2 transition-all duration-300 h-full border border-black/10 hover:border-[#7000FF]/50">
                 <div className="h-48 relative overflow-hidden shrink-0">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  <Image
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
                     alt={post.title}
-                    src={post.coverImage || "/blog/high-quality-iptv-service.webp"}
+                    src={post.coverImage || "/blog/best-iptv-subscription-buying-guide/cover.jpg"}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    loading="lazy"
                   />
                   <div className="absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-white to-transparent"></div>
                   <span className="absolute top-4 left-4 px-3 py-1 bg-white backdrop-blur-md text-black rounded-full text-xs font-bold border border-black/10">
