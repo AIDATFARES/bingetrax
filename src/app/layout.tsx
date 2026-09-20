@@ -75,6 +75,13 @@ export default function RootLayout({
           "url": "https://www.bingetrax.top/icon.png",
           "caption": "BINGETRAX IPTV Official Logo",
           "creditText": "BINGETRAX",
+          "creator": {
+            "@type": "Organization",
+            "name": "BINGETRAX IPTV"
+          },
+          "copyrightNotice": "© 2025 BINGETRAX IPTV. All rights reserved.",
+          "license": "https://www.bingetrax.top/privacy-policy",
+          "acquireLicensePage": "https://www.bingetrax.top/contact",
           "copyrightHolder": {
             "@type": "Organization",
             "name": "BINGETRAX IPTV"
