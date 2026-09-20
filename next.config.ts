@@ -38,6 +38,40 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      {
+        source: "/blog/iptv-subscription-guide",
+        destination: "/blog/best-iptv-subscription-buying-guide",
+        permanent: true,
+      },
+      {
+        source: "/blog/how-to-watch-live-sports-with-iptv",
+        destination: "/blog/stream-live-sports-iptv-guide",
+        permanent: true,
+      },
+      {
+        source: "/blog/how-to-choose-best-iptv-service-2026",
+        destination: "/blog/how-to-choose-best-iptv-service",
+        permanent: true,
+      },
+      {
+        source: "/blog/iptv-not-working-common-problems-fixes",
+        destination: "/blog/iptv-troubleshooting-master-guide",
+        permanent: true,
+      },
+      {
+        source: "/blog/best-iptv-devices-2026-smart-tv-firestick-android-tv",
+        destination: "/blog/best-iptv-streaming-devices-compared",
+        permanent: true,
+      },
+      {
+        source: "/blog/iptv-vs-streaming-services-2026",
+        destination: "/blog/iptv-vs-streaming-services-comparison",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
