@@ -11,10 +11,10 @@ interface BlogOfferCardProps {
 
 export default function BlogOfferCard({
   heading = "Experience Ultimate 4K IPTV Streaming",
-  copy = "Upgrade your entertainment with BingeTrax IPTV. Enjoy top-tier live sports, movies, and VOD in crystal-clear 4K. Experience zero buffering, anti-freeze technology, and instant delivery directly to all your favorite devices.",
+  copy = "Upgrade your entertainment with BINGETRAX IPTV. Enjoy top-tier live sports, movies, and VOD in crystal-clear 4K. Experience zero buffering, anti-freeze technology, and instant delivery directly to all your favorite devices.",
   buttonText = "View Pricing Plans",
   buttonLink = "/pricing",
-  badge = "BingeTrax Premium"
+  badge = "BINGETRAX Premium"
 }: BlogOfferCardProps = {}) {
   return (
     <div className="my-10 relative overflow-hidden rounded-3xl bg-[#030014] border border-[#7000FF]/30 p-8 sm:p-10 shadow-[0_0_40px_rgba(112,0,255,0.15)] group transition-all duration-500 hover:border-[#7000FF]/60 hover:shadow-[0_0_50px_rgba(112,0,255,0.25)] flex flex-col items-center text-center gap-6">

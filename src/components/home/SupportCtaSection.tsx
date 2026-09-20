@@ -14,17 +14,17 @@ export default function SupportCtaSection() {
             <MessageSquare className="h-5 w-5" />
           </span>
           <h2 className="mt-5 text-3xl font-black uppercase italic leading-[0.9] tracking-tight text-black sm:text-4xl">
-            <span className="block">Still have a</span>
-            <span className="block text-primary-500">question?</span>
+            <span className="block">Ask BINGETRAX</span>
+            <span className="block text-primary-500">Support</span>
           </h2>
           <p className="mt-4 text-sm leading-5 text-slate-600">
-            Our team is online 24/7 and responds in under 5 minutes on WhatsApp. No bots — real humans ready to help you right now.
+            The BINGETRAX support team is online 24/7 and responds in under 5 minutes on WhatsApp. No bots — real experts ready to help you right now.
           </p>
         </div>
         <div className="flex shrink-0 flex-col gap-2.5 sm:w-40">
           <a
             className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-4 py-2.5 text-[10px] font-extrabold uppercase tracking-wide text-white shadow-[0_0_20px_rgba(37,211,102,0.4)] transition-all hover:bg-[#20bd5a] hover:scale-105"
-            href="https://wa.me/213552069874?text=Hello%2C%20I%20have%20a%20question%20about%20BingeTrax%20IPTV."
+            href="https://wa.me/213552069874?text=Hello%2C%20I%20have%20a%20question%20about%20BINGETRAX%20IPTV."
             rel="noreferrer"
             target="_blank"
           >

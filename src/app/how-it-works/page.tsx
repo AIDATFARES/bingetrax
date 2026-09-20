@@ -3,8 +3,8 @@ import Link from "next/link";
 import { PlayCircle, ShieldCheck, Zap, Phone, MonitorSmartphone, Globe2, CheckCircle2 } from "lucide-react";
 
 export const metadata = {
-  title: "How It Works | BingeTrax IPTV",
-  description: "Learn how easy it is to set up and start streaming with BingeTrax IPTV. Our 3-step process gets you watching premium live TV and VOD in minutes.",
+  title: "How It Works | BINGETRAX IPTV",
+  description: "Learn how easy it is to set up and start streaming with BINGETRAX IPTV. Our 3-step process gets you watching premium live TV and VOD in minutes.",
   alternates: {
     canonical: "/how-it-works",
   },
@@ -21,16 +21,16 @@ export default function HowItWorksPage() {
         
         <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
           <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/20 text-[#FF00BD] font-bold text-xs tracking-widest uppercase mb-6 border border-[#FF00BD]/30">
-            Simple Setup Guide
+            Simple Setup Guide · BINGETRAX
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-black text-white tracking-tight leading-[1.1] mb-6">
-            Start Streaming in <br />
+            Stream with BINGETRAX in <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
               Under 5 Minutes
             </span>
           </h1>
           <p className="text-slate-400 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
-            We&apos;ve made cutting the cord as simple as possible. No technical skills required, no hardware to install, and absolutely zero hidden fees. Just choose a plan, connect your app, and dive into infinite entertainment.
+            We&apos;ve made cutting the cord with BINGETRAX IPTV as simple as possible. No technical skills required, no hardware to install, and absolutely zero hidden fees. Just choose a plan, connect your app, and dive into infinite entertainment.
           </p>
         </div>
       </section>
@@ -40,11 +40,11 @@ export default function HowItWorksPage() {
         <HowItWorksSection />
       </div>
 
-      {/* Why Choose BingeTrax - Pill Grid */}
+      {/* Why Choose BINGETRAX - Pill Grid */}
       <section className="py-20 bg-white text-black relative z-10 border-t border-black/10">
         <div className="max-w-[1000px] mx-auto px-6 text-center">
           <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-10 uppercase">
-            Why Choose <span className="text-[#7000FF]">BingeTrax IPTV</span>?
+            Why Choose <span className="text-[#7000FF]">BINGETRAX IPTV</span>?
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
@@ -93,7 +93,7 @@ export default function HowItWorksPage() {
       <section className="py-24 bg-gradient-to-r from-[#7000FF] to-[#FF00BD] text-center relative z-10 shadow-[0_-10px_40px_rgba(112,0,255,0.2)]">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight drop-shadow-lg">
-            Ready to Start Streaming?
+            Ready to Start Streaming with BINGETRAX?
           </h2>
           <p className="text-white/90 text-lg md:text-xl font-medium mb-10 max-w-2xl mx-auto drop-shadow-md">
             Join thousands of satisfied customers. Get instant access to +50,000 live channels, +120,000 films & series, and reliable VIP sports coverage.
@@ -101,7 +101,7 @@ export default function HowItWorksPage() {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link 
-              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BingeTrax%20IPTV." 
+              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BINGETRAX%20IPTV." 
               target="_blank"
               className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-base font-bold text-[#7000FF] bg-white rounded-xl shadow-xl hover:scale-105 hover:bg-slate-50 transition-all duration-300"
             >

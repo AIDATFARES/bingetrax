@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/hero-interface-neon.webp"
-          alt="BingeTrax IPTV Interface"
+          alt="BINGETRAX IPTV Interface"
           priority
           fill
           quality={75}
@@ -26,25 +26,25 @@ export default function HeroSection() {
         <div className="inline-flex items-center border border-[#7000FF] rounded-full px-4 py-1.5 backdrop-blur-sm bg-black/40">
           <span className="w-2 h-2 rounded-full bg-[#FF00BD] mr-2 animate-pulse"></span>
           <span className="text-[10px] sm:text-xs font-bold text-[#00F0FF] tracking-widest uppercase">
-            +7,500 Satisfied customers
+            Official BINGETRAX IPTV · +7,500 Satisfied Customers
           </span>
         </div>
 
         {/* Headline */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-black tracking-tight leading-[1] text-white drop-shadow-2xl mt-4">
-          Experience <span className="text-[#FF00BD] text-glow">BingeTrax</span><br />
-          Infinite Entertainment
+          Experience <span className="text-[#FF00BD] text-glow">BINGETRAX</span><br />
+          Infinite IPTV Entertainment
         </h1>
 
         {/* Subtitle */}
         <p className="text-lg sm:text-xl text-white/90 font-medium max-w-[700px] mt-2 drop-shadow-lg leading-relaxed">
-          Step into the future of television with <strong>BingeTrax IPTV</strong>. Enjoy exclusive access to <Link href="/channels" title="Explore IPTV Channels" className="font-bold text-white hover:text-[#00F0FF] underline decoration-white/30 underline-offset-4 hover:decoration-[#00F0FF] transition-colors">+50,000 Channels</Link>, <strong>+120,000 Films & Series</strong>, and VIP sports coverage. Say goodbye to buffering and expensive cable bills—<span className="font-bold text-[#00F0FF]"><Link href="/pricing" title="BingeTrax IPTV Premium Subscriptions" className="hover:text-white underline decoration-[#00F0FF]/40 underline-offset-4 hover:decoration-white transition-colors">grab your premium subscription</Link> or <a href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BingeTrax%20IPTV." target="_blank" rel="noreferrer" className="hover:text-white underline decoration-[#00F0FF]/40 underline-offset-4 hover:decoration-white transition-colors">start a free trial today!</a></span>
+          Step into the future of television with <strong>BINGETRAX IPTV</strong>. Enjoy exclusive access to <Link href="/channels" title="Explore IPTV Channels" className="font-bold text-white hover:text-[#00F0FF] underline decoration-white/30 underline-offset-4 hover:decoration-[#00F0FF] transition-colors">+50,000 Live Channels</Link>, <strong>+120,000 Films &amp; Series</strong>, and VIP sports coverage in crystal-clear 4K. Say goodbye to buffering and expensive cable bills—<span className="font-bold text-[#00F0FF]"><Link href="/pricing" title="BINGETRAX IPTV Premium Subscriptions" className="hover:text-white underline decoration-[#00F0FF]/40 underline-offset-4 hover:decoration-white transition-colors">grab your BINGETRAX subscription</Link> or <a href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BINGETRAX%20IPTV." target="_blank" rel="noreferrer" className="hover:text-white underline decoration-[#00F0FF]/40 underline-offset-4 hover:decoration-white transition-colors">start a free trial today!</a></span>
         </p>
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-5 mt-8 justify-center w-full sm:w-auto">
           <a
-            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BingeTrax%20IPTV."
+            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BINGETRAX%20IPTV."
             target="_blank"
             rel="noreferrer"
             className="btn-primary-voltra py-4 px-8 text-sm sm:text-base font-bold flex items-center justify-center tracking-wider hover:scale-105"

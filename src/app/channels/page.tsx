@@ -187,8 +187,8 @@ export default function ChannelsPage() {
             transition={{ delay: 0.1 }}
             className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight"
           >
-            <span className="block text-black">Popular BingeTrax</span>
-            <span className="mt-1 block text-[#7000FF]">Live Channels &amp; VOD.</span>
+            <span className="block text-black">Explore BINGETRAX</span>
+            <span className="mt-1 block text-[#7000FF]">Live Channels &amp; 4K VOD.</span>
           </motion.h1>
 
           <motion.p 
@@ -197,7 +197,7 @@ export default function ChannelsPage() {
             transition={{ delay: 0.2 }}
             className="mx-auto mt-5 max-w-2xl text-base sm:text-lg text-slate-700 leading-relaxed"
           >
-            Browse our full channel lineup featuring live sports, movies, news, entertainment, and on-demand series in 4K &amp; HD quality from over 150+ countries.
+            Browse our full BINGETRAX channel lineup featuring live sports, movies, news, entertainment, and on-demand series in 4K &amp; HD quality from over 150+ countries.
           </motion.p>
         </div>
 
@@ -346,19 +346,19 @@ export default function ChannelsPage() {
         <section className="mt-16 bg-[#7000FF]/5 rounded-3xl border-2 border-[#7000FF]/20 p-8 sm:p-12 text-center shadow-lg relative overflow-hidden">
           <div className="relative z-10 max-w-2xl mx-auto">
             <CirclePlay className="w-10 h-10 text-[#7000FF] mx-auto mb-4 animate-bounce" />
-            <h2 className="text-3xl font-black uppercase text-black">Ready to start watching?</h2>
+            <h2 className="text-3xl font-black uppercase text-black">Ready to start streaming with BINGETRAX?</h2>
             <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
-              Choose your subscription plan to receive instant access credentials on WhatsApp within minutes.
+              Choose your BINGETRAX subscription plan to receive instant access credentials on WhatsApp within minutes.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/pricing"
                 className="px-8 py-4 rounded-full bg-black text-white font-black text-sm uppercase tracking-wider hover:bg-[#7000FF] transition-colors"
               >
-                View IPTV Subscription Plans
+                View BINGETRAX Subscription Plans
               </Link>
               <a
-                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BingeTrax%20IPTV."
+                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BINGETRAX%20IPTV."
                 target="_blank"
                 rel="noreferrer"
                 className="px-8 py-4 rounded-full bg-white border-2 border-slate-200 text-black font-black text-sm uppercase tracking-wider hover:border-[#7000FF] transition-colors"

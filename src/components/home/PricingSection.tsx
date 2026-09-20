@@ -83,7 +83,7 @@ export default function PricingSection() {
 
   function handleOrder(plan: Plan) {
     const text = encodeURIComponent(
-      `Hello! I would like to purchase the BingeTrax ${plan.name} plan (${plan.durationLabel}) with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
+      `Hello! I would like to purchase the BINGETRAX ${plan.name} plan (${plan.durationLabel}) with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
     );
     window.open(`https://wa.me/213552069874?text=${text}`, "_blank", "noopener,noreferrer");
   }
@@ -94,16 +94,16 @@ export default function PricingSection() {
         
         <header className="mx-auto max-w-3xl text-center mb-10">
           <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/10 text-[#7000FF] font-bold text-xs tracking-widest uppercase mb-6 border border-[#7000FF]/20">
-            IPTV SUBSCRIPTION PLANS
+            BINGETRAX IPTV PLANS
           </span>
           <h2 className="mt-5 text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-[1.1]">
             Choose Your <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
-              Premium IPTV Plan
+              BINGETRAX Subscription
             </span>
           </h2>
           <p className="mt-5 text-xl font-bold tracking-wide text-black sm:text-2xl">Affordable, Buffer-Free Streaming</p>
-          <p className="mt-2 text-sm text-slate-500 sm:text-base">No hidden fees. Instant activation. Unlock unlimited <Link href="/channels" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">live TV and VOD</Link> today.</p>
+          <p className="mt-2 text-sm text-slate-500 sm:text-base">No hidden fees. Instant activation. Unlock unlimited <Link href="/channels" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">live TV and VOD</Link> with BINGETRAX today.</p>
         </header>
 
         {/* Device Selector */}

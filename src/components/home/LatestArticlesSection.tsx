@@ -14,13 +14,13 @@ export default function LatestArticlesSection() {
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-14 max-w-3xl mx-auto">
           <span className="inline-block py-1 px-4 rounded-full bg-[#7000FF]/10 border border-[#7000FF]/30 text-[#7000FF] text-xs font-bold tracking-widest uppercase mb-4">
-            Guides & News
+            BINGETRAX Insights & News
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-black tracking-tight mb-4">
-            Latest Articles
+            BINGETRAX Streaming Guides & News
           </h2>
           <p className="text-slate-600 text-base sm:text-lg">
-            Stay up to date with the latest IPTV guides, tips, and insights.
+            Stay up to date with the latest BINGETRAX IPTV tutorials, setup guides, and cord-cutting insights.
           </p>
         </div>
 

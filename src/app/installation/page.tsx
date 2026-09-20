@@ -5,8 +5,8 @@ import BrandMarquee from "@/components/home/BrandMarquee";
 import { Clock3, Download, Headphones, Link2, Monitor, PlayCircle } from "lucide-react";
 
 export const metadata = {
-  title: "How to Setup IPTV on Any Device | BingeTrax IPTV Installation Guide",
-  description: "Complete step-by-step installation guides to set up BingeTrax IPTV on Smart TV, Firestick, Android, iOS, Windows, and MAG.",
+  title: "How to Setup BINGETRAX IPTV on Any Device | Installation Guide",
+  description: "Complete step-by-step installation guides to set up BINGETRAX IPTV on Smart TV, Firestick, Android, iOS, Windows, and MAG.",
   alternates: {
     canonical: "/installation",
   },
@@ -17,13 +17,13 @@ export default function Installation() {
   return (
     <main className="mx-auto w-full max-w-[1440px] flex-grow px-5 pb-20 pt-12 sm:px-8 md:px-12 text-format-technical">
       <header className="mx-auto mb-16 max-w-3xl text-center sm:mb-20">
-        <span className="inline-flex rounded-full border border-primary-400/35 bg-primary-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary-300">Installation Guide</span>
+        <span className="inline-flex rounded-full border border-primary-400/35 bg-primary-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary-300">BINGETRAX Setup Guide</span>
         <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
-          <span className="block text-black">How to Setup IPTV Service</span>
+          <span className="block text-black">How to Setup BINGETRAX IPTV</span>
           <span className="mt-1 block text-[#7000FF]">On Any Device Quickly.</span>
         </h1>
-        <p className="mx-auto mt-5 max-w-2xl text-base leading-6 text-slate-600">Comprehensive step-by-step instructions to configure BingeTrax IPTV on all your devices.</p>
-        <p className="mx-auto mt-2 max-w-2xl text-base leading-6 text-slate-600">BingeTrax IPTV works on Smart TVs, Firestick, Android, iOS, MAG, and more. New to BingeTrax? Check <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/pricing">BingeTrax Pricing</Link>, or browse the <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/channels">BingeTrax Channel List</Link> before you start.</p>
+        <p className="mx-auto mt-5 max-w-2xl text-base leading-6 text-slate-600">Comprehensive step-by-step instructions to configure BINGETRAX IPTV on all your favorite devices.</p>
+        <p className="mx-auto mt-2 max-w-2xl text-base leading-6 text-slate-600">BINGETRAX IPTV works on Smart TVs, Firestick, Android, iOS, Windows, MAG, and more. New to BINGETRAX? Check <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/pricing">BINGETRAX Pricing</Link>, or browse the <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/channels">BINGETRAX Channel List</Link> before you start.</p>
         <div className="mt-10 flex flex-wrap justify-center gap-x-9 gap-y-4 text-sm font-semibold text-slate-700">
           <span className="inline-flex items-center gap-2"><Monitor className="h-4 w-4 text-primary-400" />15+ Devices Supported</span>
           <span className="inline-flex items-center gap-2"><Clock3 className="h-4 w-4 text-primary-300" />5–15 Minutes Setup</span>
@@ -34,12 +34,12 @@ export default function Installation() {
       <section className="mb-20 border-y border-black/[0.07] bg-white/[0.02] py-14 sm:mb-24 sm:py-16">
         <div className="mx-auto max-w-[1000px] px-5">
           <header className="mx-auto mb-10 max-w-[560px] text-center">
-            <h2 className="text-3xl font-extrabold tracking-tight text-black">Quick Start Guide</h2>
-            <p className="mt-3 text-slate-600">Get started with BingeTrax IPTV quickly and easily in three straightforward steps.</p>
+            <h2 className="text-3xl font-extrabold tracking-tight text-black">BINGETRAX Quick Start Guide</h2>
+            <p className="mt-3 text-slate-600">Get started with BINGETRAX IPTV quickly and easily in three straightforward steps.</p>
           </header>
           <div className="grid gap-8 md:grid-cols-3">
             <QuickStartCard icon={Download} step="1" title="Download App">Download and install a suitable IPTV player app on your device from the app store or the official site.</QuickStartCard>
-            <QuickStartCard icon={Link2} step="2" title="Add M3U URL">Input your BingeTrax IPTV M3U playlist URL and EPG URL, which are included in your welcome email.</QuickStartCard>
+            <QuickStartCard icon={Link2} step="2" title="Add M3U URL">Input your BINGETRAX IPTV M3U playlist URL and EPG URL, which are included in your welcome email or WhatsApp.</QuickStartCard>
             <QuickStartCard icon={PlayCircle} step="3" title="Start Streaming">Gain immediate access to live channels, movies and TV shows in stunning 4K quality.</QuickStartCard>
           </div>
 
@@ -71,7 +71,7 @@ export default function Installation() {
       <DeviceSetupGuide />
 
       <section className="mx-auto max-w-2xl text-center">
-        <h2 className="text-2xl font-bold text-black">Need help with setup?</h2>
+        <h2 className="text-2xl font-bold text-black">Need help with BINGETRAX setup?</h2>
         <p className="mt-2 text-slate-600">Our support team is available 24/7 to assist you with installation.</p>
         <Link className="mt-5 inline-flex items-center gap-2 rounded-full border border-primary-400/40 bg-primary-500/10 px-7 py-3 font-semibold text-orange-200 transition-colors hover:bg-primary-500/20" href="/contact">
           Contact Support

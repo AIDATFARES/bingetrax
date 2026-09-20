@@ -7,14 +7,14 @@ export default function Contact() {
     <main className="flex-grow pt-32 pb-24 px-6 md:px-12 max-w-[1440px] mx-auto w-full relative z-10">
       <div className="mx-auto mb-14 max-w-3xl text-center">
         <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/10 text-[#7000FF] font-bold text-xs tracking-widest uppercase mb-6 border border-[#7000FF]/20">
-          Contact Support
+          BINGETRAX Support
         </span>
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
           <span className="block text-black">Get in Touch with</span>
-          <span className="mt-1 block text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">Our Support Team.</span>
+          <span className="mt-1 block text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">BINGETRAX Support.</span>
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-sm md:text-base leading-6 text-slate-500 font-medium">
-          We&apos;re here to help you get the best streaming experience. Send us a message and we&apos;ll get back to you quickly.
+          We&apos;re here to help you get the best BINGETRAX IPTV streaming experience. Send us a message and our support experts will get back to you quickly.
         </p>
       </div>
 
@@ -45,7 +45,7 @@ export default function Contact() {
             </p>
             <a
               className="text-[#25D366] font-bold hover:text-[#20bd5a] transition-colors flex items-center gap-2"
-              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20BingeTrax%20IPTV."
+              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20BINGETRAX%20IPTV."
               target="_blank"
               rel="noreferrer"
             >
@@ -68,7 +68,7 @@ export default function Contact() {
         <div className="lg:col-span-8">
           <div className="bg-white shadow-[0_20px_50px_-15px_rgba(112,0,255,0.15)] border border-slate-100 rounded-[2.5rem] p-8 md:p-12 h-full">
             <h2 className="text-2xl font-extrabold text-black mb-8 border-b border-slate-100 pb-6">
-              Send a Message
+              Send BINGETRAX a Message
             </h2>
             <form className="flex flex-col gap-6" onSubmit={(e) => e.preventDefault()}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

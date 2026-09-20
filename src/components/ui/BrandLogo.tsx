@@ -14,7 +14,7 @@ export default function BrandLogo({
   return (
     <div
       className={`flex items-center gap-2.5 sm:gap-3 select-none transition-transform duration-200 hover:scale-[1.02] ${className}`}
-      aria-label="BingeTrax IPTV Home"
+      aria-label="BINGETRAX IPTV Home"
     >
       {/* Dynamic Streaming Trax Icon */}
       <div

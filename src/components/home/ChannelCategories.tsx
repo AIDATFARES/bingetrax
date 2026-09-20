@@ -17,7 +17,7 @@ export default function ChannelCategories() {
     {
       icon: Film,
       title: "200,000+ VODS",
-      desc: "Enjoy an on-demand library with movies, series, replays, highlights, and documentaries available any time, on any device.",
+      desc: "Enjoy the BINGETRAX on-demand library with movies, series, replays, highlights, and documentaries available any time, on any device.",
       tags: ["MOVIES", "SERIES", "REPLAYS", "UPDATED DAILY"],
     },
   ];
@@ -36,7 +36,7 @@ export default function ChannelCategories() {
     {
       icon: Globe2,
       title: "Works Worldwide",
-      desc: "Enjoy BingeTrax IPTV wherever you are, on any connection.",
+      desc: "Enjoy BINGETRAX IPTV wherever you are, on any connection.",
     },
     {
       icon: ShieldCheck,
@@ -52,12 +52,12 @@ export default function ChannelCategories() {
         {/* Heading */}
         <div className="mx-auto mb-16 max-w-4xl text-center">
           <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/10 text-[#7000FF] font-bold text-xs tracking-widest uppercase mb-6 border border-[#7000FF]/20">
-            Premium Features
+            BINGETRAX ENTERTAINMENT
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-[1.1] animate-fade-up">
             Everything You Need for the <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
-              Ultimate Viewing Experience.
+              Ultimate BINGETRAX Experience.
             </span>
           </h2>
         </div>

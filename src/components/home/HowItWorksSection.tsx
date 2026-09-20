@@ -7,20 +7,20 @@ export default function HowItWorksSection() {
       <div className="max-w-[1240px] mx-auto px-6">
 
         {/* ========================================================================= */}
-        {/* PART 1: How does it work? BingeTrax IPTV Timeline */}
+        {/* PART 1: How does it work? BINGETRAX IPTV Timeline */}
         {/* ========================================================================= */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/10 text-[#7000FF] font-bold text-xs tracking-widest uppercase mb-6 border border-[#7000FF]/20">
-            EASY IPTV SETUP
+            EASY BINGETRAX SETUP
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-[1.1]">
             How to Start Your <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
-              Premium IPTV Subscription
+              BINGETRAX IPTV Subscription
             </span>
           </h2>
           <p className="text-slate-700 text-sm sm:text-base mt-4 leading-relaxed max-w-2xl mx-auto">
-            Setting up your BingeTrax IPTV account is quick and simple. Follow our 3-step process to get instant access to <Link href="/channels" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] transition-colors">live TV, movies, and series</Link>.
+            Setting up your BINGETRAX IPTV account is quick and simple. Follow our 3-step process to get instant access to <Link href="/channels" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] transition-colors">live TV, movies, and series</Link>.
           </p>
         </div>
 
@@ -47,11 +47,11 @@ export default function HowItWorksSection() {
                     href="#pricing"
                     className="hover:text-orange-700 transition-colors"
                   >
-                    1. Choose Your IPTV Plan
+                    1. Choose Your BINGETRAX Plan
                   </a>
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Select the best IPTV subscription package for your needs from our{" "}
+                  Select the best BINGETRAX IPTV subscription package for your needs from our{" "}
                   <a
                     href="#pricing"
                     className="text-[#7000FF] font-semibold hover:text-orange-700 transition-colors"
@@ -113,7 +113,7 @@ export default function HowItWorksSection() {
                     href="/installation"
                     className="hover:text-orange-700 transition-colors"
                   >
-                    2. Install Your IPTV App
+                    2. Install Your BINGETRAX App
                   </Link>
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed">
@@ -122,7 +122,7 @@ export default function HowItWorksSection() {
                     href="/installation"
                     className="text-[#7000FF] font-semibold hover:text-orange-700 transition-colors"
                   >
-                    IPTV installation guides
+                    BINGETRAX IPTV installation guides
                   </Link>{" "}
                   to set up the service on your Smart TV, Firestick, Android Box, or Apple device using top apps like IPTV Smarters or Tivimate.
                 </p>
@@ -148,7 +148,7 @@ export default function HowItWorksSection() {
                     href="/channels"
                     className="hover:text-orange-700 transition-colors"
                   >
-                    3. Watch Live TV & VOD
+                    3. Stream BINGETRAX Live TV & VOD
                   </Link>
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed">

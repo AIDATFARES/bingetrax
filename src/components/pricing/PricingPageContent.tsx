@@ -80,14 +80,14 @@ const includedFeatures = [
   { icon: Tv, title: "+50,000 Channels", text: "Explore live channels from around the world, including sports, news and entertainment." },
   { icon: MonitorSmartphone, title: "200,000+ VODs", text: "Enjoy +120,000 Films & Series and a massive, regularly refreshed video-on-demand library." },
   { icon: Zap, title: "Anti-freeze Technology", text: "Optimized streaming technology helps deliver a smoother experience at busy times." },
-  { icon: Headphones, title: "24/7 Support", text: "The BingeTrax support team is here to help with setup and streaming questions." },
-  { icon: Sparkles, title: "Fast Setup", text: "Your BingeTrax IPTV details are sent after payment so you can start setting up quickly." },
+  { icon: Headphones, title: "24/7 Support", text: "The BINGETRAX support team is here to help with setup and streaming questions." },
+  { icon: Sparkles, title: "Fast Setup", text: "Your BINGETRAX IPTV details are sent after payment so you can start setting up quickly." },
   { icon: CreditCard, title: "TV Guide (EPG)", text: "Browse your channel schedule more easily with an electronic programme guide." },
 ];
 
 const billingQuestions = [
-  { question: "1. Which payment methods can I use?", answer: <>Available payment options are shown when you place your order. <Link className="font-semibold text-primary-500 hover:text-primary-600 transition-colors" href="/contact">Contact BingeTrax support</Link> if you need help before purchasing.</> },
-  { question: "2. Is my payment protected?", answer: "Please use the official BingeTrax payment process and never share payment details through an unverified link or message." },
+  { question: "1. Which payment methods can I use?", answer: <>Available payment options are shown when you place your order. <Link className="font-semibold text-primary-500 hover:text-primary-600 transition-colors" href="/contact">Contact BINGETRAX support</Link> if you need help before purchasing.</> },
+  { question: "2. Is my payment protected?", answer: "Please use the official BINGETRAX payment process and never share payment details through an unverified link or message." },
   { question: "3. Will my subscription renew automatically?", answer: <>Renewal details are provided when you order. If you have any questions about your subscription period or renewal, <Link className="font-semibold text-primary-500 hover:text-primary-600 transition-colors" href="/contact">contact support</Link> before your plan expires.</> },
   { question: "4. Can I change my plan or number of connections?", answer: <>Yes. <Link className="font-semibold text-primary-500 hover:text-primary-600 transition-colors" href="/contact">Contact the support team</Link> with your order email and the plan or connection change you need, and they will advise on the available options.</> },
 ];
@@ -98,7 +98,7 @@ export default function PricingPageContent() {
 
   function handleOrder(plan: Plan) {
     const text = encodeURIComponent(
-      `Hello! I would like to purchase the BingeTrax ${plan.name} plan (${plan.durationLabel}) with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
+      `Hello! I would like to purchase the BINGETRAX ${plan.name} plan (${plan.durationLabel}) with ${devices} device connection${devices > 1 ? "s" : ""} for $${priceFor(plan)}.`
     );
     window.open(`https://wa.me/213552069874?text=${text}`, "_blank", "noopener,noreferrer");
   }
@@ -107,12 +107,12 @@ export default function PricingPageContent() {
     <section className="relative overflow-hidden bg-[#f8fafc] py-16 sm:py-20 lg:py-24">
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
         <header className="mx-auto max-w-3xl text-center mb-16">
-          <span className="inline-flex rounded-full border border-primary-500/30 bg-primary-500/10 px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary-600">BingeTrax IPTV</span>
+          <span className="inline-flex rounded-full border border-primary-500/30 bg-primary-500/10 px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary-600">BINGETRAX IPTV</span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
             <span className="block text-black uppercase">Choose Your Exclusive</span>
-            <span className="mt-1 block text-primary-500 uppercase">Subscription Plans.</span>
+            <span className="mt-1 block text-primary-500 uppercase">BINGETRAX Subscription Plans</span>
           </h1>
-          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-600 sm:text-base">Choose the BingeTrax IPTV plan that fits you, with secure checkout and helpful 24/7 support.</p>
+          <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-600 sm:text-base">Choose the BINGETRAX IPTV plan that fits you, with secure checkout and helpful 24/7 support.</p>
           <p className="mx-auto mt-2 max-w-2xl text-sm leading-6 text-slate-500">Need help getting started? Visit our <Link className="font-semibold text-primary-500 hover:text-primary-600" href="/installation">installation guide</Link> or browse the <Link className="font-semibold text-primary-500 hover:text-primary-600" href="/channels">channel list</Link> before you order.</p>
         </header>
 
@@ -225,7 +225,7 @@ export default function PricingPageContent() {
         </div>
 
         <section className="mt-24">
-          <h2 className="text-center text-3xl font-bold text-black uppercase">Every plan includes</h2>
+          <h2 className="text-center text-3xl font-bold text-black uppercase">Every BINGETRAX plan includes</h2>
           <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {includedFeatures.map(({ icon: Icon, title, text }) => (
               <article className="rounded-2xl border border-slate-100 bg-white p-6 text-center shadow-sm" key={title}>
@@ -240,7 +240,7 @@ export default function PricingPageContent() {
         </section>
 
         <section className="mx-auto mt-24 max-w-4xl">
-          <h2 className="text-center text-3xl font-black text-black uppercase">Billing &amp; Subscription FAQ</h2>
+          <h2 className="text-center text-3xl font-black text-black uppercase">BINGETRAX Billing &amp; Subscription FAQ</h2>
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-5">
             {billingQuestions.map((item) => (
               <div className="flex flex-col rounded-xl overflow-hidden border border-slate-200 bg-white shadow-sm hover:border-orange-200 transition-colors" key={item.question}>
@@ -260,7 +260,7 @@ export default function PricingPageContent() {
 
         <div className="mt-16 flex items-center justify-center gap-2 text-sm text-slate-600">
           <ShieldCheck className="h-5 w-5 text-primary-500" />
-          <span className="font-semibold text-black">Secure ordering</span> and friendly BingeTrax IPTV support.
+          <span className="font-semibold text-black">Secure ordering</span> and friendly BINGETRAX IPTV support.
         </div>
       </div>
     </section>

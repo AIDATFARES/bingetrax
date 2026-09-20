@@ -21,16 +21,16 @@ export default function ComparisonSection() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-24">
           <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/10 text-[#7000FF] font-bold text-xs tracking-widest uppercase mb-6 border border-[#7000FF]/20">
-            IPTV vs Cable TV
+            BINGETRAX vs Cable TV
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-[1.1]">
-            Why BingeTrax is the <br/>
+            Why BINGETRAX is the <br/>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
-              Best Cable Alternative
+              Ultimate Cable Alternative
             </span>
           </h2>
           <p className="text-slate-500 text-lg md:text-xl mt-6 leading-relaxed max-w-2xl mx-auto">
-            Discover why thousands of users are cutting the cord. Our premium IPTV service offers <Link href="/channels" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">more channels</Link>, better 4K quality, and reliable anti-freeze technology at a fraction of the cost.
+            Discover why thousands of viewers are cutting the cord with BINGETRAX. Our premium IPTV service delivers <Link href="/channels" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">more live channels</Link>, better 4K quality, and reliable anti-freeze streaming at a fraction of the cable cost.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ export default function ComparisonSection() {
         <div className="hidden md:block relative max-w-5xl mx-auto">
           <div className="bg-white rounded-[2rem] shadow-[0_20px_60px_-15px_rgba(112,0,255,0.15)] border border-slate-100 p-8 pb-10 relative overflow-hidden">
             
-            {/* Highlight Background for BingeTrax Column */}
+            {/* Highlight Background for BINGETRAX Column */}
             <div className="absolute top-0 bottom-0 left-[25%] w-[25%] bg-gradient-to-b from-[#7000FF]/5 to-[#FF00BD]/5 border-x border-[#7000FF]/20 shadow-[0_0_50px_rgba(112,0,255,0.05)]"></div>
 
             {/* Table Header */}
@@ -47,7 +47,7 @@ export default function ComparisonSection() {
               
               <div className="flex flex-col items-center justify-center bg-gradient-to-r from-[#7000FF] to-[#FF00BD] text-white rounded-2xl p-5 shadow-[0_10px_30px_rgba(112,0,255,0.3)] transform -translate-y-4 scale-105 border-2 border-white">
                 <span className="text-[10px] uppercase tracking-widest font-bold opacity-80 mb-1">Premium Choice</span>
-                <span className="text-2xl font-black tracking-tight">BingeTrax</span>
+                <span className="text-2xl font-black tracking-tight">BINGETRAX</span>
               </div>
               
               <div className="text-center font-bold text-slate-400 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Cable / Satellite</div>
@@ -72,7 +72,7 @@ export default function ComparisonSection() {
         <div className="md:hidden space-y-8">
           <div className="bg-gradient-to-br from-[#7000FF] to-[#FF00BD] rounded-3xl p-1 relative shadow-xl">
             <div className="bg-black/20 text-white rounded-[1.35rem] p-6 backdrop-blur-sm">
-              <h3 className="text-2xl font-black mb-6 text-center">BingeTrax</h3>
+              <h3 className="text-2xl font-black mb-6 text-center">BINGETRAX</h3>
               <div className="space-y-4">
                 {rows.map((row, idx) => (
                   <div key={idx} className="flex justify-between items-center border-b border-white/10 pb-3 last:border-0 last:pb-0">

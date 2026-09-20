@@ -122,7 +122,7 @@ export default function GlobalCoverageSection() {
           >
             <Globe className="w-3.5 h-3.5 text-primary-400" />
             <span className="text-[10px] font-bold text-primary-300 uppercase tracking-widest">
-              GLOBAL COVERAGE
+              BINGETRAX GLOBAL COVERAGE
             </span>
           </motion.div>
 
@@ -133,12 +133,20 @@ export default function GlobalCoverageSection() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-extrabold font-sans uppercase tracking-tight mb-4"
           >
-            <span className="text-black block mb-1">AVAILABLE IN</span>
+            <span className="text-black block mb-1">BINGETRAX IS AVAILABLE IN</span>
             <span className="bg-gradient-to-r from-primary-400 via-purple-400 to-primary-400 text-transparent bg-clip-text block">
-              150+ COUNTRIES
+              150+ COUNTRIES WORLDWIDE
             </span>
           </motion.h2>
-
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="text-slate-600 text-sm sm:text-base max-w-xl mx-auto"
+          >
+            Connect to BINGETRAX high-speed streaming servers from anywhere in the world with zero geoblocking.
+          </motion.p>
         </div>
 
         {/* Region Filter Buttons */}

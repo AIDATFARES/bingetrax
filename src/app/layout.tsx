@@ -22,23 +22,23 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "BingeTrax IPTV | #1 Premium 4K IPTV Subscription Service",
-  description: "Upgrade your entertainment with BingeTrax IPTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
+  title: "BINGETRAX IPTV | #1 Premium 4K IPTV Subscription Service",
+  description: "Upgrade your entertainment with BINGETRAX IPTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
   metadataBase: new URL("https://www.bingetrax.top"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "BingeTrax IPTV | #1 Premium 4K IPTV Subscription Service",
-    description: "Upgrade your entertainment with BingeTrax IPTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
+    title: "BINGETRAX IPTV | #1 Premium 4K IPTV Subscription Service",
+    description: "Upgrade your entertainment with BINGETRAX IPTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
     url: "https://www.bingetrax.top",
-    siteName: "BingeTrax IPTV",
+    siteName: "BINGETRAX IPTV",
     images: [
       {
         url: "/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "BingeTrax IPTV Premium Service",
+        alt: "BINGETRAX IPTV Premium Service",
       },
     ],
     locale: "en_US",
@@ -46,8 +46,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "BingeTrax IPTV | #1 Premium 4K IPTV Subscription Service",
-    description: "Upgrade your entertainment with BingeTrax IPTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
+    title: "BINGETRAX IPTV | #1 Premium 4K IPTV Subscription Service",
+    description: "Upgrade your entertainment with BINGETRAX IPTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
     images: ["/og-image.webp"],
   },
 };
@@ -73,7 +73,7 @@ export default function RootLayout({
             <div className="col-span-2 sm:col-span-4 xl:col-span-1 min-w-0 max-w-[310px] space-y-4">
               <Link href="/"><BrandLogo /></Link>
               <p className="max-w-[285px] whitespace-normal break-normal text-sm leading-6 text-slate-700">
-                © 2025 BingeTrax IPTV. Premium 4K IPTV Streaming Services. All rights reserved.
+                © 2025 BINGETRAX IPTV. Premium 4K IPTV Streaming Services. All rights reserved.
               </p>
               <a href="https://wa.me/213552069874" target="_blank" rel="noreferrer" className="flex max-w-[270px] items-center gap-3 rounded-2xl border border-[#25D366]/30 bg-[#25D366]/[0.08] p-3.5 transition-colors hover:bg-[#25D366]/[0.15] group">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#25D366] text-white shadow-lg shadow-[#25D366]/20 transition-transform group-hover:scale-105">

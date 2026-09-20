@@ -157,8 +157,8 @@ export default function ResellerPageContent() {
 
   const handleOrderPanel = (plan?: CreditPlan) => {
     const message = plan
-      ? `Hello! I would like to order the BingeTrax IPTV Reseller Panel with ${plan.credits} Credits for $${plan.price}.`
-      : `Hello! I am interested in becoming a BingeTrax IPTV Reseller and would like to request panel access.`;
+      ? `Hello! I would like to order the BINGETRAX IPTV Reseller Panel with ${plan.credits} Credits for $${plan.price}.`
+      : `Hello! I am interested in becoming a BINGETRAX IPTV Reseller and would like to request panel access.`;
     window.open(
       `https://wa.me/213552069874?text=${encodeURIComponent(message)}`,
       "_blank",
@@ -167,7 +167,7 @@ export default function ResellerPageContent() {
   };
 
   const handleFreeTrial = () => {
-    const message = `Hello! I am interested in testing a BingeTrax IPTV Reseller Panel free trial account.`;
+    const message = `Hello! I am interested in testing a BINGETRAX IPTV Reseller Panel free trial account.`;
     window.open(
       `https://wa.me/213552069874?text=${encodeURIComponent(message)}`,
       "_blank",
@@ -186,16 +186,16 @@ export default function ResellerPageContent() {
         <header className="relative mx-auto max-w-4xl text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-primary-500/30 bg-primary-500/10 px-4 py-1.5 text-[11px] font-extrabold uppercase tracking-[0.18em] text-primary-400">
             <Sparkles className="h-3.5 w-3.5" />
-            IPTV Reseller Program
+            BINGETRAX Reseller Program
           </span>
 
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight text-black">
-            <span className="block text-black">Become an IPTV Reseller</span>
+            <span className="block text-black">Become a BINGETRAX Reseller</span>
             <span className="mt-1 block text-[#7000FF]">And Start Earning Easy Money.</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-sm leading-7 text-slate-700 sm:text-base sm:leading-8">
-            Our IPTV reseller program helps you meet the expectations of your customers, enabling you to provide them with the best possible solutions. Join us and enjoy dozens of benefits with our program now.
+            Our BINGETRAX IPTV reseller program helps you meet the expectations of your customers, enabling you to provide them with the best possible streaming solutions. Join us and enjoy dozens of reseller benefits now.
           </p>
 
           <div className="mt-8 flex items-center justify-center gap-4">
@@ -213,7 +213,7 @@ export default function ResellerPageContent() {
           <div className="text-center">
             <h2 className="text-3xl sm:text-4xl font-black leading-tight tracking-tight">
               <span className="block text-black">Our Exclusive</span>
-              <span className="mt-1 block text-[#7000FF]">IPTV Reseller Plans.</span>
+              <span className="mt-1 block text-[#7000FF]">BINGETRAX Reseller Plans.</span>
             </h2>
             <p className="mt-3 text-base font-bold text-slate-700">
               We provide you with the best servers at the right price
@@ -284,8 +284,8 @@ export default function ResellerPageContent() {
         {/* ADVANTAGES OF IPTV RESELLER */}
         <div className="mt-28">
           <h2 className="text-center text-3xl sm:text-4xl font-black leading-tight tracking-tight">
-            <span className="block text-black">Advantages of</span>
-            <span className="mt-1 block text-[#7000FF]">IPTV Reseller Program.</span>
+            <span className="block text-black">Advantages of the</span>
+            <span className="mt-1 block text-[#7000FF]">BINGETRAX Reseller Program.</span>
           </h2>
 
           <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -314,7 +314,7 @@ export default function ResellerPageContent() {
         {/* FREQUENTLY ASKED QUESTIONS */}
         <div className="mx-auto mt-28 max-w-4xl">
           <h2 className="text-center text-3xl sm:text-4xl font-black leading-tight tracking-tight">
-            <span className="block text-black">Frequently Asked</span>
+            <span className="block text-black">BINGETRAX Reseller</span>
             <span className="mt-1 block text-[#7000FF]">Questions & Answers.</span>
           </h2>
 

@@ -21,7 +21,7 @@ export default function DeviceSupport() {
               <div className="relative rounded-2xl overflow-hidden shadow-inner">
                 <Image
                   src="/devices-banner-neon.webp"
-                  alt="Supported IPTV Devices"
+                  alt="BINGETRAX Supported IPTV Devices"
                   width={800}
                   height={500}
                   className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
@@ -42,16 +42,16 @@ export default function DeviceSupport() {
           <div className="w-full lg:flex-1 space-y-8 min-w-0 flex flex-col justify-center">
             <div>
               <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/10 text-[#7000FF] font-bold text-xs tracking-widest uppercase mb-6 border border-[#7000FF]/20">
-                Limitless Compatibility
+                BINGETRAX Compatibility
               </span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-black leading-[1.1] tracking-tight mb-8">
-                Stream Seamlessly on <br />
+                Stream Seamlessly with <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
-                  Any Device
+                  BINGETRAX on Any Device
                 </span>
               </h2>
               <p className="text-slate-500 text-lg md:text-xl leading-relaxed w-full">
-                BingeTrax IPTV is designed to adapt to your lifestyle. From the biggest screen in your living room to the smartphone in your pocket, enjoy a <Link href="/installation" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">premium viewing experience</Link> anywhere.
+                BINGETRAX IPTV is engineered to adapt flawlessly to your setup. From 4K Smart TVs in your living room to smartphones and streaming sticks on the move, enjoy a <Link href="/installation" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">premium viewing experience</Link> anywhere.
               </p>
             </div>
 

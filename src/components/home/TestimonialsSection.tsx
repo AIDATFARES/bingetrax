@@ -28,16 +28,16 @@ export default function TestimonialsSection() {
       <div className="relative">
         <div className="mx-auto max-w-3xl px-5 text-center">
           <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-400/40 bg-amber-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.15em] text-amber-300">
-            <Trophy className="h-3 w-3" /> TOP RATED IPTV PROVIDER
+            <Trophy className="h-3 w-3" /> TOP RATED IPTV PROVIDER · BINGETRAX
           </span>
           <h2 className="mt-6 text-4xl font-black uppercase leading-[0.98] tracking-tight text-black sm:text-5xl animate-fade-up">
             <span className="block">Trusted by Thousands of</span>
             <span className="mt-1 block bg-gradient-to-r from-primary-400 via-primary-400 to-primary-400 bg-clip-text text-transparent">
-              Happy Cord-Cutters
+              Happy BINGETRAX Viewers
             </span>
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-600 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            Read real reviews from our global community. Discover why BingeTrax IPTV is rated as the most reliable, buffer-free IPTV service for live sports, movies, and international channels.
+            Read real reviews from our global community. Discover why BINGETRAX IPTV is rated as the most reliable, buffer-free IPTV service for live sports, movies, and international channels.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export default function TestimonialsSection() {
               >
                 <Image
                   src={`/reviews/${img}`}
-                  alt="BingeTrax Customer Review"
+                  alt="BINGETRAX Customer Review"
                   fill
                   sizes="(max-width: 640px) 220px, 280px"
                   className="object-contain group-hover:scale-105 transition-transform duration-300"
@@ -85,7 +85,7 @@ export default function TestimonialsSection() {
 
         <div className="mt-12 text-center animate-fade-up" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
           <a
-            href="https://wa.me/213552069874?text=Hello%2C%20I%20would%20like%20a%20free%20trial%20for%20BingeTrax%20IPTV."
+            href="https://wa.me/213552069874?text=Hello%2C%20I%20would%20like%20a%20free%20trial%20for%20BINGETRAX%20IPTV."
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary-500 to-primary-600 px-7 py-4 text-sm font-extrabold text-black shadow-[0_0_28px_rgba(255,107,0,0.42)] transition-transform hover:-translate-y-0.5 hover:scale-105"

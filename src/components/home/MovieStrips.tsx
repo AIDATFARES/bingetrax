@@ -23,31 +23,31 @@ export default function MovieStrips() {
       {/* Section Header */}
       <div className="text-center mb-8 px-4 z-20">
         <span className="inline-block py-1 px-4 rounded-full bg-[#7000FF]/10 border border-[#7000FF]/30 text-[#7000FF] text-xs font-bold tracking-widest uppercase mb-4">
-          Endless Entertainment
+          BINGETRAX ON-DEMAND
         </span>
         <h2 className="text-3xl md:text-5xl font-extrabold text-black mb-4 tracking-tight">
-          THE ULTIMATE <span className="text-[#7000FF]">CINEMATIC</span> EXPERIENCE
+          THE ULTIMATE <span className="text-[#7000FF]">BINGETRAX CINEMA</span> EXPERIENCE
         </h2>
-        <p className="text-gray-400 max-w-2xl mx-auto text-sm md:text-base mb-8">
-          Explore a massive library of 200,000+ Films & Series. From the latest blockbuster hits to timeless classics, all available instantly in crystal-clear 4K Ultra HD.
+        <p className="text-gray-500 max-w-2xl mx-auto text-sm md:text-base mb-8">
+          Explore a massive BINGETRAX library of 200,000+ films and series. From the latest blockbuster hits to timeless classics, all available instantly in crystal-clear 4K Ultra HD.
         </p>
         <Link 
           href="/channels"
           className="inline-flex items-center justify-center px-8 py-3 rounded-full border border-[#7000FF] text-black text-sm md:text-base font-medium bg-black/20 hover:bg-[#7000FF]/10 transition-colors duration-300 gap-2"
         >
-          View BingeTrax Channel List <span aria-hidden="true">&rarr;</span>
+          View BINGETRAX Channel List <span aria-hidden="true">&rarr;</span>
         </Link>
       </div>
 
       {/* Brand Logos Tape */}
       <div className="z-20 w-full mb-10">
-        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-6">50,000+ Premium Live Channels</h3>
+        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-6">50,000+ BINGETRAX Live Channels</h3>
         <BrandMarquee />
       </div>
 
       {/* Top Strip (Right to Left) */}
       <div className="w-full mb-4 z-20">
-        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-2">200,000+ Latest Movies & Series</h3>
+        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-2">200,000+ BINGETRAX Movies & Series</h3>
       </div>
       <div className="relative flex w-max items-center">
         <div className="flex gap-4 md:gap-6 px-2 md:px-3 animate-marquee" style={{ animationDuration: '30s' }}>

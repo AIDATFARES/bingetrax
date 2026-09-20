@@ -4,10 +4,10 @@ import { ArrowRight, HelpCircle } from "lucide-react";
 const faqs = [
   {
     id: 1,
-    question: "1. What is BingeTrax?",
+    question: "1. What is BINGETRAX?",
     answer: (
       <>
-        BingeTrax is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
+        BINGETRAX is a premium IPTV service that offers live TV, VOD movies, TV series, and sports channels in high-quality streaming, including 4K. Check out our{" "}
         <Link
           href="/channels"
           className="text-[#7000FF] font-semibold hover:text-[#FF00BD] transition-colors"
@@ -27,12 +27,12 @@ const faqs = [
   },
   {
     id: 2,
-    question: "2. Do I need a subscription to use BingeTrax?",
+    question: "2. Do I need a subscription to use BINGETRAX?",
     answer: (
       <>
         Yes, a subscription is required. However, we offer a{" "}
         <a
-          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BingeTrax%20IPTV."
+          href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20BINGETRAX%20IPTV."
           target="_blank"
           rel="noreferrer"
           className="text-primary-500 font-semibold hover:text-primary-400 transition-colors"
@@ -52,10 +52,10 @@ const faqs = [
   },
   {
     id: 3,
-    question: "3. What devices are compatible with BingeTrax?",
+    question: "3. What devices are compatible with BINGETRAX?",
     answer: (
       <>
-        BingeTrax works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
+        BINGETRAX works on Android TV, Firestick, Smart TVs, Android phones, tablets, and apps like Tivimate. Follow our step-by-step{" "}
         <Link
           href="/installation"
           className="text-primary-500 font-semibold hover:text-primary-400 transition-colors"
@@ -84,7 +84,7 @@ const faqs = [
   },
   {
     id: 5,
-    question: "5. Can I watch sports on BingeTrax?",
+    question: "5. Can I watch sports on BINGETRAX?",
     answer: (
       <>
         Absolutely. We offer a wide selection of live sports channels, including major leagues and international events. Explore our full{" "}
@@ -155,16 +155,16 @@ export default function FAQSection() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-14">
           <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/10 text-[#7000FF] font-bold text-xs tracking-widest uppercase mb-6 border border-[#7000FF]/20 animate-fade-up">
-            SUPPORT & HELP
+            BINGETRAX IPTV FAQ
           </span>
           <h2 className="text-4xl md:text-5xl font-extrabold text-black tracking-tight leading-[1.1] animate-fade-up">
             Frequently Asked <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
-              Questions (FAQ)
+              Questions About BINGETRAX
             </span>
           </h2>
           <p className="text-slate-700 text-sm sm:text-base mt-5 leading-relaxed max-w-2xl mx-auto animate-fade-up" style={{ animationDelay: '0.1s', animationFillMode: 'both' }}>
-            Find answers to common questions about our IPTV service, including{" "}
+            Find answers to common questions about our BINGETRAX IPTV service, including{" "}
             <Link
               href="/pricing"
               className="text-[#7000FF] font-semibold hover:text-[#FF00BD] transition-colors"

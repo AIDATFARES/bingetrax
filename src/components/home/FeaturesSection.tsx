@@ -53,7 +53,7 @@ export default function FeaturesSection() {
             viewport={{ once: true }}
             className="font-label-caps text-label-caps text-tertiary tracking-widest uppercase mb-xs block"
           >
-            Built for Extreme Performance
+            Built for Extreme Performance by BINGETRAX
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 10 }}
@@ -61,7 +61,7 @@ export default function FeaturesSection() {
             viewport={{ once: true }}
             className="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg font-semibold text-on-background mb-sm"
           >
-            BingeTrax for Flawless Streaming
+            BINGETRAX for Flawless Streaming
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 10 }}
@@ -69,7 +69,7 @@ export default function FeaturesSection() {
             viewport={{ once: true }}
             className="font-body-lg text-body-lg text-on-surface-variant"
           >
-            Experience the future of IPTV technology with Next-Gen infrastructure designed specifically for live sports events.
+            Experience the future of IPTV technology with BINGETRAX Next-Gen infrastructure designed specifically for live sports events and 4K entertainment.
           </motion.p>
         </div>
 
