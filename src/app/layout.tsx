@@ -28,6 +28,13 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/icon.png" },
+      { url: "/favicon.ico" },
+    ],
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: "BINGETRAX – #1 Premium 4K IPTV Service | Free Trial & Fast Setup",
     description: "Stream 50,000+ live channels, 4K sports & 120,000+ movies with zero buffering. Save up to 80% on cable. Get instant activation & test BINGETRAX risk-free today!",
